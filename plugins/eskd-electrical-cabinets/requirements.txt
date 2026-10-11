@@ -1,0 +1,4 @@
+# Versions recorded in the skill's rendering-environment.json.
+reportlab==4.4.9
+PyMuPDF==1.26.6
+ezdxf==1.4.4

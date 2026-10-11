@@ -1,0 +1,264 @@
+{
+  "snapshot_date": "2026-10-11",
+  "scope": "Independent educational model and reproducible exports. Hashes verify file identity, not engineering validity.",
+  "files": [
+    {
+      "file": "assets/demo/output/demo.pdf",
+      "sha256": "8a124309e73df4669af0ca49872dd4265da780ce96b45a100ab9a0db00b42411",
+      "pages": 9,
+      "page_mm": [
+        [
+          594.0,
+          420.0
+        ],
+        [
+          594.0,
+          420.0
+        ],
+        [
+          594.0,
+          420.0
+        ],
+        [
+          594.0,
+          420.0
+        ],
+        [
+          594.0,
+          420.0
+        ],
+        [
+          420.0,
+          297.0
+        ],
+        [
+          594.0,
+          420.0
+        ],
+        [
+          594.0,
+          420.0
+        ],
+        [
+          594.0,
+          420.0
+        ]
+      ]
+    },
+    {
+      "file": "assets/demo/output/release.json",
+      "sha256": "36b339dcbe38506a23a90b6b2f63149c5f6ba747d76f444074b1e44c897e465b"
+    },
+    {
+      "file": "assets/demo/output/sheet_01.dxf",
+      "sha256": "b165ce57dbc2bccf0dc3a470290e6fd65c17e1087b41f467ef2aee8a336d36a6"
+    },
+    {
+      "file": "assets/demo/output/sheet_01.pdf",
+      "sha256": "c1fa8c162a8333fdb0aaf7417f96935129dd2b2222045408e8c23b30473f185e",
+      "pages": 1,
+      "page_mm": [
+        [
+          594.0,
+          420.0
+        ]
+      ]
+    },
+    {
+      "file": "assets/demo/output/sheet_01.svg",
+      "sha256": "f0f6f72a0411b2f183c66e832d621072e3683fc7f04bd57646c73991abdf0770"
+    },
+    {
+      "file": "assets/demo/output/sheet_01_layout.json",
+      "sha256": "d35a889f89e8ea064e2817c9fecdb21dee0394d64cfa40f6f1dfa7d5fbc45804"
+    },
+    {
+      "file": "assets/demo/output/sheet_02.dxf",
+      "sha256": "c9535f7b0af7c7f3b9ce45ab1730bbfe8fe83cd8774448a5f8d107d2a7f48928"
+    },
+    {
+      "file": "assets/demo/output/sheet_02.pdf",
+      "sha256": "5603bfbe327a5f59475e9e5532d3806fc375c94d3287f8c9f47851c1d7f2b0f5",
+      "pages": 1,
+      "page_mm": [
+        [
+          594.0,
+          420.0
+        ]
+      ]
+    },
+    {
+      "file": "assets/demo/output/sheet_02.svg",
+      "sha256": "cc44dc660c452d0e34c4d6652c7b7f902f7350b1738b9067a9a1778f3b3d9e56"
+    },
+    {
+      "file": "assets/demo/output/sheet_02_layout.json",
+      "sha256": "733a91c64fe2943daeefeb02057caaf09a334d585c76180665ca2a6aa1fa9487"
+    },
+    {
+      "file": "assets/demo/output/sheet_03.dxf",
+      "sha256": "555627210f11d40a9fda2dd0267f3de2f9403d20ef59927e990d9010c1cda6da"
+    },
+    {
+      "file": "assets/demo/output/sheet_03.pdf",
+      "sha256": "019787e6fe80c5d1db57796197159c1e808eb27c8200da068ca8c14a5445570b",
+      "pages": 1,
+      "page_mm": [
+        [
+          594.0,
+          420.0
+        ]
+      ]
+    },
+    {
+      "file": "assets/demo/output/sheet_03.svg",
+      "sha256": "8ad300b74fbe879851c2e6f49367e3124a9611019e2b25f0901feb4b47920ce8"
+    },
+    {
+      "file": "assets/demo/output/sheet_03_layout.json",
+      "sha256": "bd7115248ea91216d1044e842632d2653a48eefbbb08fbb2f92d9566236b0609"
+    },
+    {
+      "file": "assets/demo/output/sheet_04.dxf",
+      "sha256": "3e862eb375733accd1bc6596fde14a36f54b136aab96c9adec15e3c7303700bf"
+    },
+    {
+      "file": "assets/demo/output/sheet_04.pdf",
+      "sha256": "c453801e80af1b471bb5abfbd151563787ce7f6a0f9fc4f167c36651070b906b",
+      "pages": 1,
+      "page_mm": [
+        [
+          594.0,
+          420.0
+        ]
+      ]
+    },
+    {
+      "file": "assets/demo/output/sheet_04.svg",
+      "sha256": "03c46a694f51c680f31413f00e47f9fd79f61db5982f884508a1e9a7c7153301"
+    },
+    {
+      "file": "assets/demo/output/sheet_04_layout.json",
+      "sha256": "72efcc54d9e0795682a76141dcb69879189866525cd2b366aecc89969a401b80"
+    },
+    {
+      "file": "assets/demo/output/sheet_05.dxf",
+      "sha256": "db675059c22592142feea09e3c5f49511262f26e0125b7e41b273293388a56ee"
+    },
+    {
+      "file": "assets/demo/output/sheet_05.pdf",
+      "sha256": "63b1dcbd5356050db8d4cd5ca291bd6fb8f07d889fcce60a828aa9dd3d8a3f3c",
+      "pages": 1,
+      "page_mm": [
+        [
+          594.0,
+          420.0
+        ]
+      ]
+    },
+    {
+      "file": "assets/demo/output/sheet_05.svg",
+      "sha256": "9122f61fe9afd9cedbeb233fc0f0762eac8c0841a6451fcb9f9e326681eacd5c"
+    },
+    {
+      "file": "assets/demo/output/sheet_05_layout.json",
+      "sha256": "b70809578d7e863f9cf683a8705393bdf9ae668485cffb16abcf676bd2032054"
+    },
+    {
+      "file": "assets/demo/output/sheet_06.dxf",
+      "sha256": "d451e8bf98f1af77612871117587b4a2ab1522fc5f32e7bb24de50a52a2bc581"
+    },
+    {
+      "file": "assets/demo/output/sheet_06.pdf",
+      "sha256": "2cf947dc2fca32824749d8845a24648d2bf13adceeb5767add713aa202003997",
+      "pages": 1,
+      "page_mm": [
+        [
+          420.0,
+          297.0
+        ]
+      ]
+    },
+    {
+      "file": "assets/demo/output/sheet_06.svg",
+      "sha256": "bc830c863568e78c9fe826f8eed90f006d798446817663d1bfe9228d6c31a013"
+    },
+    {
+      "file": "assets/demo/output/sheet_06_layout.json",
+      "sha256": "f3f4551dddc6f45c49884ce2683d229a6036e23ecc08d23a9133debce852e307"
+    },
+    {
+      "file": "assets/demo/output/sheet_07.dxf",
+      "sha256": "5a591066b1d66aa7fab6e3dfbafb5e2b7de06dcff03e05f5d8fa42811786bd33"
+    },
+    {
+      "file": "assets/demo/output/sheet_07.pdf",
+      "sha256": "010037bdc09114836eeab1214d9b29db9c62f6aad04ee449fab22851f3ee32fc",
+      "pages": 1,
+      "page_mm": [
+        [
+          594.0,
+          420.0
+        ]
+      ]
+    },
+    {
+      "file": "assets/demo/output/sheet_07.svg",
+      "sha256": "372de0502dee93810c558de1f49309f18a51a70a5600c70e25557c3594a8d94d"
+    },
+    {
+      "file": "assets/demo/output/sheet_07_layout.json",
+      "sha256": "f1e528c3dd1efdeedd78dac4a519ef1e91a37c778675e2c55ecf55c8514eedd2"
+    },
+    {
+      "file": "assets/demo/output/sheet_08.dxf",
+      "sha256": "2e72b2d8e2cb90e24d8fb5f21cf4c2fcd42872b11bbeb32a7e51fce1d4d91bbc"
+    },
+    {
+      "file": "assets/demo/output/sheet_08.pdf",
+      "sha256": "8bb50206fe1801a3981d69cb81594b9ac1a8b5b3e3e5a817f29f33fd3cf87b88",
+      "pages": 1,
+      "page_mm": [
+        [
+          594.0,
+          420.0
+        ]
+      ]
+    },
+    {
+      "file": "assets/demo/output/sheet_08.svg",
+      "sha256": "b04e393c3eaec65991cfb58de595b844372c2af0bf777254749ca3129d7e3309"
+    },
+    {
+      "file": "assets/demo/output/sheet_08_layout.json",
+      "sha256": "9488292808a54ede80dcf728c889b99d70fde2e9e26534cbe01ec7c68da4b3ff"
+    },
+    {
+      "file": "assets/demo/output/sheet_09.dxf",
+      "sha256": "7884927114586c87418b584ab8d82752d54343636de43d3cdad94cbf7d783515"
+    },
+    {
+      "file": "assets/demo/output/sheet_09.pdf",
+      "sha256": "94358f7123368d2cbee5abd67c7ddb3c72fc435fb4baadad9886172acd80aa76",
+      "pages": 1,
+      "page_mm": [
+        [
+          594.0,
+          420.0
+        ]
+      ]
+    },
+    {
+      "file": "assets/demo/output/sheet_09.svg",
+      "sha256": "eb159b0bcd9e4fea5ae45cc5c840e9b683c5310a45289c0571d0d5492811c2e9"
+    },
+    {
+      "file": "assets/demo/output/sheet_09_layout.json",
+      "sha256": "7edea4615094dfd6d8fdadb6a8b07260aeb6c5d2fcb3e2fd97b6d01a3e037b32"
+    },
+    {
+      "file": "assets/demo/project.json",
+      "sha256": "f19ed645196f3e8ef354e6cd8717d11b89c4b7ae9d19f34a628817fdee8fefc3"
+    }
+  ]
+}

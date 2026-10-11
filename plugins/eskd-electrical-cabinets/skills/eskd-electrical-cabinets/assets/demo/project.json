@@ -1,0 +1,3061 @@
+{
+  "schema_version": 2,
+  "project": {
+    "name": "EDU-01",
+    "purpose": "Самостоятельный учебный пример оформления. Все аппараты и их размеры условные."
+  },
+  "devices": [
+    {
+      "id": "CAB1.QF1",
+      "title": "Автомат 2P",
+      "model": "EDU-QF1",
+      "cabinet": "CAB1",
+      "part": "EDU-QF1",
+      "bom_quantity": 1,
+      "source": "Условный аппарат учебного примера",
+      "dimensions_mm": [
+        36,
+        90
+      ]
+    },
+    {
+      "id": "CAB1.G1",
+      "title": "Источник 24 В",
+      "model": "EDU-G1",
+      "cabinet": "CAB1",
+      "part": "EDU-G1",
+      "bom_quantity": 1,
+      "source": "Условный аппарат учебного примера",
+      "dimensions_mm": [
+        55,
+        125
+      ]
+    },
+    {
+      "id": "CAB1.A1",
+      "title": "ПЛК",
+      "model": "EDU-A1",
+      "cabinet": "CAB1",
+      "part": "EDU-A1",
+      "bom_quantity": 1,
+      "source": "Условный аппарат учебного примера",
+      "dimensions_mm": [
+        160,
+        100
+      ]
+    },
+    {
+      "id": "CAB1.K1",
+      "title": "Промежуточное реле",
+      "model": "EDU-K1",
+      "cabinet": "CAB1",
+      "part": "EDU-K1",
+      "bom_quantity": 1,
+      "source": "Условный аппарат учебного примера",
+      "dimensions_mm": [
+        15,
+        90
+      ]
+    },
+    {
+      "id": "CAB1.D1",
+      "title": "Преобразователь частоты",
+      "model": "EDU-D1",
+      "cabinet": "CAB1",
+      "part": "EDU-D1",
+      "bom_quantity": 1,
+      "source": "Условный аппарат учебного примера",
+      "dimensions_mm": [
+        110,
+        230
+      ]
+    },
+    {
+      "id": "CAB1.PE1",
+      "title": "Шина PE",
+      "model": "EDU-PE1",
+      "cabinet": "CAB1",
+      "part": "EDU-PE1",
+      "bom_quantity": 1,
+      "source": "Условный аппарат учебного примера",
+      "dimensions_mm": [
+        25,
+        70
+      ]
+    },
+    {
+      "id": "CAB1.BODY",
+      "title": "Корпус",
+      "model": "EDU-BOND",
+      "cabinet": "CAB1",
+      "part": "EDU-BOND",
+      "bom_quantity": 1,
+      "source": "Условный аппарат учебного примера"
+    },
+    {
+      "id": "CAB1.PLATE",
+      "title": "Монтажная плита",
+      "model": "EDU-BOND",
+      "cabinet": "CAB1",
+      "part": "EDU-BOND",
+      "bom_quantity": 1,
+      "source": "Условный аппарат учебного примера"
+    },
+    {
+      "id": "CAB1.DOOR",
+      "title": "Дверь",
+      "model": "EDU-BOND",
+      "cabinet": "CAB1",
+      "part": "EDU-BOND",
+      "bom_quantity": 1,
+      "source": "Условный аппарат учебного примера"
+    },
+    {
+      "id": "CAB2.A2",
+      "title": "Панель оператора",
+      "model": "EDU-A2",
+      "cabinet": "CAB2",
+      "part": "EDU-A2",
+      "bom_quantity": 1,
+      "source": "Условный аппарат учебного примера",
+      "dimensions_mm": [
+        210,
+        150
+      ]
+    },
+    {
+      "id": "CAB2.SB1",
+      "title": "Пуск",
+      "model": "EDU-SB1",
+      "cabinet": "CAB2",
+      "part": "EDU-SB1",
+      "bom_quantity": 1,
+      "source": "Условный аппарат учебного примера",
+      "dimensions_mm": [
+        22,
+        22
+      ]
+    },
+    {
+      "id": "CAB2.SB2",
+      "title": "Стоп",
+      "model": "EDU-SB2",
+      "cabinet": "CAB2",
+      "part": "EDU-SB2",
+      "bom_quantity": 1,
+      "source": "Условный аппарат учебного примера",
+      "dimensions_mm": [
+        38,
+        38
+      ]
+    },
+    {
+      "id": "CAB2.HL1",
+      "title": "Работа",
+      "model": "EDU-HL1",
+      "cabinet": "CAB2",
+      "part": "EDU-HL1",
+      "bom_quantity": 1,
+      "source": "Условный аппарат учебного примера",
+      "dimensions_mm": [
+        22,
+        22
+      ]
+    },
+    {
+      "id": "CAB1.XT1",
+      "title": "XT1",
+      "model": "EDU-TB",
+      "cabinet": "CAB1",
+      "part": "EDU-TB",
+      "bom_quantity": 3,
+      "source": "Условный аппарат учебного примера",
+      "dimensions_mm": [
+        34,
+        70
+      ]
+    },
+    {
+      "id": "CAB1.XT2",
+      "title": "XT2",
+      "model": "EDU-TB",
+      "cabinet": "CAB1",
+      "part": "EDU-TB",
+      "bom_quantity": 4,
+      "source": "Условный аппарат учебного примера",
+      "dimensions_mm": [
+        40,
+        70
+      ]
+    },
+    {
+      "id": "CAB1.XT3",
+      "title": "XT3",
+      "model": "EDU-TB",
+      "cabinet": "CAB1",
+      "part": "EDU-TB",
+      "bom_quantity": 5,
+      "source": "Условный аппарат учебного примера",
+      "dimensions_mm": [
+        46,
+        70
+      ]
+    },
+    {
+      "id": "CAB1.XT4",
+      "title": "XT4",
+      "model": "EDU-TB",
+      "cabinet": "CAB1",
+      "part": "EDU-TB",
+      "bom_quantity": 4,
+      "source": "Условный аппарат учебного примера",
+      "dimensions_mm": [
+        40,
+        70
+      ]
+    },
+    {
+      "id": "CAB1.XT5",
+      "title": "XT5",
+      "model": "EDU-TB",
+      "cabinet": "CAB1",
+      "part": "EDU-TB",
+      "bom_quantity": 2,
+      "source": "Условный аппарат учебного примера",
+      "dimensions_mm": [
+        28,
+        70
+      ]
+    },
+    {
+      "id": "CAB2.XT1",
+      "title": "XT1",
+      "model": "EDU-TB",
+      "cabinet": "CAB2",
+      "part": "EDU-TB",
+      "bom_quantity": 5,
+      "source": "Условный аппарат учебного примера",
+      "dimensions_mm": [
+        46,
+        50
+      ]
+    },
+    {
+      "id": "FIELD.POWER",
+      "title": "Питание",
+      "model": "EDU-POWER",
+      "cabinet": "FIELD",
+      "part": "EDU-POWER",
+      "bom_quantity": 1,
+      "source": "Условный аппарат учебного примера"
+    },
+    {
+      "id": "FIELD.M1",
+      "title": "Двигатель",
+      "model": "EDU-M1",
+      "cabinet": "FIELD",
+      "part": "EDU-M1",
+      "bom_quantity": 1,
+      "source": "Условный аппарат учебного примера"
+    },
+    {
+      "id": "FIELD.B1",
+      "title": "Аналоговый датчик",
+      "model": "EDU-B1",
+      "cabinet": "FIELD",
+      "part": "EDU-B1",
+      "bom_quantity": 1,
+      "source": "Условный аппарат учебного примера"
+    },
+    {
+      "id": "FIELD.YV1",
+      "title": "Клапан",
+      "model": "EDU-YV1",
+      "cabinet": "FIELD",
+      "part": "EDU-YV1",
+      "bom_quantity": 1,
+      "source": "Условный аппарат учебного примера"
+    }
+  ],
+  "ports": [
+    {
+      "id": "CAB1.QF1:1",
+      "device": "CAB1.QF1",
+      "factory_label": "1",
+      "net": "L"
+    },
+    {
+      "id": "CAB1.QF1:2",
+      "device": "CAB1.QF1",
+      "factory_label": "2",
+      "net": "L1"
+    },
+    {
+      "id": "CAB1.QF1:3",
+      "device": "CAB1.QF1",
+      "factory_label": "3",
+      "net": "N"
+    },
+    {
+      "id": "CAB1.QF1:4",
+      "device": "CAB1.QF1",
+      "factory_label": "4",
+      "net": "N1"
+    },
+    {
+      "id": "CAB1.G1:L",
+      "device": "CAB1.G1",
+      "factory_label": "L",
+      "net": "L1"
+    },
+    {
+      "id": "CAB1.G1:N",
+      "device": "CAB1.G1",
+      "factory_label": "N",
+      "net": "N1"
+    },
+    {
+      "id": "CAB1.G1:+V",
+      "device": "CAB1.G1",
+      "factory_label": "+V",
+      "net": "+24"
+    },
+    {
+      "id": "CAB1.G1:-V",
+      "device": "CAB1.G1",
+      "factory_label": "-V",
+      "net": "0V"
+    },
+    {
+      "id": "CAB1.A1:+24",
+      "device": "CAB1.A1",
+      "factory_label": "+24",
+      "net": "+24"
+    },
+    {
+      "id": "CAB1.A1:0V",
+      "device": "CAB1.A1",
+      "factory_label": "0V",
+      "net": "0V"
+    },
+    {
+      "id": "CAB1.A1:DI0",
+      "device": "CAB1.A1",
+      "factory_label": "DI0",
+      "side": "left",
+      "address": "X0",
+      "kind": "DI",
+      "net": "20"
+    },
+    {
+      "id": "CAB1.A1:COM_IN",
+      "device": "CAB1.A1",
+      "factory_label": "COM_IN",
+      "net": "0V"
+    },
+    {
+      "id": "CAB1.A1:DO0",
+      "device": "CAB1.A1",
+      "factory_label": "DO0",
+      "side": "right",
+      "address": "Y0",
+      "kind": "DO",
+      "net": "30"
+    },
+    {
+      "id": "CAB1.A1:COM_OUT",
+      "device": "CAB1.A1",
+      "factory_label": "COM_OUT",
+      "net": "+24"
+    },
+    {
+      "id": "CAB1.A1:AI+",
+      "device": "CAB1.A1",
+      "factory_label": "AI+",
+      "net": "50"
+    },
+    {
+      "id": "CAB1.A1:AI-",
+      "device": "CAB1.A1",
+      "factory_label": "AI-",
+      "net": "0V"
+    },
+    {
+      "id": "CAB1.A1:AO+",
+      "device": "CAB1.A1",
+      "factory_label": "AO+",
+      "net": "60"
+    },
+    {
+      "id": "CAB1.A1:AO-",
+      "device": "CAB1.A1",
+      "factory_label": "AO-",
+      "net": "0V"
+    },
+    {
+      "id": "CAB1.A1:ETH",
+      "device": "CAB1.A1",
+      "factory_label": "ETH"
+    },
+    {
+      "id": "CAB1.K1:A1",
+      "device": "CAB1.K1",
+      "factory_label": "A1",
+      "net": "30"
+    },
+    {
+      "id": "CAB1.K1:A2",
+      "device": "CAB1.K1",
+      "factory_label": "A2",
+      "net": "0V"
+    },
+    {
+      "id": "CAB1.K1:11",
+      "device": "CAB1.K1",
+      "factory_label": "11",
+      "net": "+24"
+    },
+    {
+      "id": "CAB1.K1:14",
+      "device": "CAB1.K1",
+      "factory_label": "14",
+      "net": "40"
+    },
+    {
+      "id": "CAB1.D1:L",
+      "device": "CAB1.D1",
+      "factory_label": "L",
+      "net": "L1"
+    },
+    {
+      "id": "CAB1.D1:N",
+      "device": "CAB1.D1",
+      "factory_label": "N",
+      "net": "N1"
+    },
+    {
+      "id": "CAB1.D1:U",
+      "device": "CAB1.D1",
+      "factory_label": "U",
+      "net": "U"
+    },
+    {
+      "id": "CAB1.D1:V",
+      "device": "CAB1.D1",
+      "factory_label": "V",
+      "net": "V"
+    },
+    {
+      "id": "CAB1.D1:W",
+      "device": "CAB1.D1",
+      "factory_label": "W",
+      "net": "W"
+    },
+    {
+      "id": "CAB1.D1:PE",
+      "device": "CAB1.D1",
+      "factory_label": "PE",
+      "net": "PE"
+    },
+    {
+      "id": "CAB1.D1:AVI",
+      "device": "CAB1.D1",
+      "factory_label": "AVI",
+      "net": "60"
+    },
+    {
+      "id": "CAB1.D1:ACM",
+      "device": "CAB1.D1",
+      "factory_label": "ACM",
+      "net": "0V"
+    },
+    {
+      "id": "CAB1.PE1:1",
+      "device": "CAB1.PE1",
+      "factory_label": "1",
+      "net": "PE"
+    },
+    {
+      "id": "CAB1.PE1:2",
+      "device": "CAB1.PE1",
+      "factory_label": "2",
+      "net": "PE"
+    },
+    {
+      "id": "CAB1.PE1:3",
+      "device": "CAB1.PE1",
+      "factory_label": "3",
+      "net": "PE"
+    },
+    {
+      "id": "CAB1.PE1:4",
+      "device": "CAB1.PE1",
+      "factory_label": "4",
+      "net": "PE"
+    },
+    {
+      "id": "CAB1.PE1:5",
+      "device": "CAB1.PE1",
+      "factory_label": "5",
+      "net": "PE"
+    },
+    {
+      "id": "CAB1.BODY:PE",
+      "device": "CAB1.BODY",
+      "factory_label": "PE",
+      "net": "PE"
+    },
+    {
+      "id": "CAB1.PLATE:PE",
+      "device": "CAB1.PLATE",
+      "factory_label": "PE",
+      "net": "PE"
+    },
+    {
+      "id": "CAB1.DOOR:PE",
+      "device": "CAB1.DOOR",
+      "factory_label": "PE",
+      "net": "PE"
+    },
+    {
+      "id": "CAB2.A2:+24",
+      "device": "CAB2.A2",
+      "factory_label": "+24",
+      "net": "+24"
+    },
+    {
+      "id": "CAB2.A2:0V",
+      "device": "CAB2.A2",
+      "factory_label": "0V",
+      "net": "0V"
+    },
+    {
+      "id": "CAB2.A2:ETH",
+      "device": "CAB2.A2",
+      "factory_label": "ETH"
+    },
+    {
+      "id": "CAB2.SB1:3",
+      "device": "CAB2.SB1",
+      "factory_label": "3",
+      "net": "15"
+    },
+    {
+      "id": "CAB2.SB1:4",
+      "device": "CAB2.SB1",
+      "factory_label": "4",
+      "net": "20"
+    },
+    {
+      "id": "CAB2.SB2:1",
+      "device": "CAB2.SB2",
+      "factory_label": "1",
+      "net": "+24"
+    },
+    {
+      "id": "CAB2.SB2:2",
+      "device": "CAB2.SB2",
+      "factory_label": "2",
+      "net": "15"
+    },
+    {
+      "id": "CAB2.HL1:+",
+      "device": "CAB2.HL1",
+      "factory_label": "+",
+      "net": "30"
+    },
+    {
+      "id": "CAB2.HL1:-",
+      "device": "CAB2.HL1",
+      "factory_label": "-",
+      "net": "0V"
+    },
+    {
+      "id": "CAB1.XT1:1",
+      "device": "CAB1.XT1",
+      "factory_label": "1",
+      "kind": "terminal",
+      "net": "L"
+    },
+    {
+      "id": "CAB1.XT1:2",
+      "device": "CAB1.XT1",
+      "factory_label": "2",
+      "kind": "terminal",
+      "net": "N"
+    },
+    {
+      "id": "CAB1.XT1:3",
+      "device": "CAB1.XT1",
+      "factory_label": "3",
+      "kind": "terminal",
+      "net": "PE"
+    },
+    {
+      "id": "CAB1.XT2:1",
+      "device": "CAB1.XT2",
+      "factory_label": "1",
+      "kind": "terminal",
+      "net": "U"
+    },
+    {
+      "id": "CAB1.XT2:2",
+      "device": "CAB1.XT2",
+      "factory_label": "2",
+      "kind": "terminal",
+      "net": "V"
+    },
+    {
+      "id": "CAB1.XT2:3",
+      "device": "CAB1.XT2",
+      "factory_label": "3",
+      "kind": "terminal",
+      "net": "W"
+    },
+    {
+      "id": "CAB1.XT2:4",
+      "device": "CAB1.XT2",
+      "factory_label": "4",
+      "kind": "terminal",
+      "net": "PE"
+    },
+    {
+      "id": "CAB1.XT3:1",
+      "device": "CAB1.XT3",
+      "factory_label": "1",
+      "kind": "terminal",
+      "net": "+24"
+    },
+    {
+      "id": "CAB1.XT3:2",
+      "device": "CAB1.XT3",
+      "factory_label": "2",
+      "kind": "terminal",
+      "net": "20"
+    },
+    {
+      "id": "CAB1.XT3:3",
+      "device": "CAB1.XT3",
+      "factory_label": "3",
+      "kind": "terminal",
+      "net": "30"
+    },
+    {
+      "id": "CAB1.XT3:4",
+      "device": "CAB1.XT3",
+      "factory_label": "4",
+      "kind": "terminal",
+      "net": "0V"
+    },
+    {
+      "id": "CAB1.XT3:5",
+      "device": "CAB1.XT3",
+      "factory_label": "5",
+      "kind": "terminal"
+    },
+    {
+      "id": "CAB1.XT4:1",
+      "device": "CAB1.XT4",
+      "factory_label": "1",
+      "kind": "terminal",
+      "net": "+24"
+    },
+    {
+      "id": "CAB1.XT4:2",
+      "device": "CAB1.XT4",
+      "factory_label": "2",
+      "kind": "terminal",
+      "net": "50"
+    },
+    {
+      "id": "CAB1.XT4:3",
+      "device": "CAB1.XT4",
+      "factory_label": "3",
+      "kind": "terminal",
+      "net": "0V"
+    },
+    {
+      "id": "CAB1.XT4:4",
+      "device": "CAB1.XT4",
+      "factory_label": "4",
+      "kind": "terminal"
+    },
+    {
+      "id": "CAB1.XT5:1",
+      "device": "CAB1.XT5",
+      "factory_label": "1",
+      "kind": "terminal",
+      "net": "40"
+    },
+    {
+      "id": "CAB1.XT5:2",
+      "device": "CAB1.XT5",
+      "factory_label": "2",
+      "kind": "terminal",
+      "net": "0V"
+    },
+    {
+      "id": "CAB2.XT1:1",
+      "device": "CAB2.XT1",
+      "factory_label": "1",
+      "kind": "terminal",
+      "net": "+24"
+    },
+    {
+      "id": "CAB2.XT1:2",
+      "device": "CAB2.XT1",
+      "factory_label": "2",
+      "kind": "terminal",
+      "net": "20"
+    },
+    {
+      "id": "CAB2.XT1:3",
+      "device": "CAB2.XT1",
+      "factory_label": "3",
+      "kind": "terminal",
+      "net": "30"
+    },
+    {
+      "id": "CAB2.XT1:4",
+      "device": "CAB2.XT1",
+      "factory_label": "4",
+      "kind": "terminal",
+      "net": "0V"
+    },
+    {
+      "id": "CAB2.XT1:5",
+      "device": "CAB2.XT1",
+      "factory_label": "5",
+      "kind": "terminal"
+    },
+    {
+      "id": "FIELD.POWER:L",
+      "device": "FIELD.POWER",
+      "factory_label": "L",
+      "net": "L"
+    },
+    {
+      "id": "FIELD.POWER:N",
+      "device": "FIELD.POWER",
+      "factory_label": "N",
+      "net": "N"
+    },
+    {
+      "id": "FIELD.POWER:PE",
+      "device": "FIELD.POWER",
+      "factory_label": "PE",
+      "net": "PE"
+    },
+    {
+      "id": "FIELD.M1:U",
+      "device": "FIELD.M1",
+      "factory_label": "U",
+      "net": "U"
+    },
+    {
+      "id": "FIELD.M1:V",
+      "device": "FIELD.M1",
+      "factory_label": "V",
+      "net": "V"
+    },
+    {
+      "id": "FIELD.M1:W",
+      "device": "FIELD.M1",
+      "factory_label": "W",
+      "net": "W"
+    },
+    {
+      "id": "FIELD.M1:PE",
+      "device": "FIELD.M1",
+      "factory_label": "PE",
+      "net": "PE"
+    },
+    {
+      "id": "FIELD.B1:+",
+      "device": "FIELD.B1",
+      "factory_label": "+",
+      "net": "+24"
+    },
+    {
+      "id": "FIELD.B1:-",
+      "device": "FIELD.B1",
+      "factory_label": "-",
+      "net": "0V"
+    },
+    {
+      "id": "FIELD.B1:OUT",
+      "device": "FIELD.B1",
+      "factory_label": "OUT",
+      "net": "50"
+    },
+    {
+      "id": "FIELD.YV1:+",
+      "device": "FIELD.YV1",
+      "factory_label": "+",
+      "net": "40"
+    },
+    {
+      "id": "FIELD.YV1:-",
+      "device": "FIELD.YV1",
+      "factory_label": "-",
+      "net": "0V"
+    }
+  ],
+  "connections": [
+    {
+      "id": "C001",
+      "from": "FIELD.POWER:L",
+      "to": "CAB1.XT1:1",
+      "net": "L",
+      "scope": "external",
+      "drawing_group": "power",
+      "cable": "W0",
+      "core": "1"
+    },
+    {
+      "id": "C002",
+      "from": "FIELD.POWER:N",
+      "to": "CAB1.XT1:2",
+      "net": "N",
+      "scope": "external",
+      "drawing_group": "power",
+      "cable": "W0",
+      "core": "2"
+    },
+    {
+      "id": "C003",
+      "from": "FIELD.POWER:PE",
+      "to": "CAB1.XT1:3",
+      "net": "PE",
+      "scope": "external",
+      "drawing_group": "pe",
+      "cable": "W0",
+      "core": "3"
+    },
+    {
+      "id": "C004",
+      "from": "CAB1.XT1:1",
+      "to": "CAB1.QF1:1",
+      "net": "L",
+      "scope": "internal",
+      "drawing_group": "power",
+      "cabinet": "CAB1",
+      "section_mm2": 2.5,
+      "color": "красный"
+    },
+    {
+      "id": "C005",
+      "from": "CAB1.XT1:2",
+      "to": "CAB1.QF1:3",
+      "net": "N",
+      "scope": "internal",
+      "drawing_group": "power",
+      "cabinet": "CAB1",
+      "section_mm2": 2.5,
+      "color": "синий"
+    },
+    {
+      "id": "C006",
+      "from": "CAB1.QF1:2",
+      "to": "CAB1.G1:L",
+      "net": "L1",
+      "scope": "internal",
+      "drawing_group": "power",
+      "cabinet": "CAB1",
+      "section_mm2": 2.5,
+      "color": "красный"
+    },
+    {
+      "id": "C007",
+      "from": "CAB1.G1:L",
+      "to": "CAB1.D1:L",
+      "net": "L1",
+      "scope": "internal",
+      "drawing_group": "power",
+      "cabinet": "CAB1",
+      "section_mm2": 2.5,
+      "color": "красный"
+    },
+    {
+      "id": "C008",
+      "from": "CAB1.QF1:4",
+      "to": "CAB1.G1:N",
+      "net": "N1",
+      "scope": "internal",
+      "drawing_group": "power",
+      "cabinet": "CAB1",
+      "section_mm2": 2.5,
+      "color": "синий"
+    },
+    {
+      "id": "C009",
+      "from": "CAB1.G1:N",
+      "to": "CAB1.D1:N",
+      "net": "N1",
+      "scope": "internal",
+      "drawing_group": "power",
+      "cabinet": "CAB1",
+      "section_mm2": 2.5,
+      "color": "синий"
+    },
+    {
+      "id": "C010",
+      "from": "CAB1.D1:U",
+      "to": "CAB1.XT2:1",
+      "net": "U",
+      "scope": "internal",
+      "drawing_group": "power",
+      "cabinet": "CAB1",
+      "section_mm2": 2.5,
+      "color": "красный"
+    },
+    {
+      "id": "C011",
+      "from": "CAB1.XT2:1",
+      "to": "FIELD.M1:U",
+      "net": "U",
+      "scope": "external",
+      "drawing_group": "power",
+      "cable": "W1",
+      "core": "1"
+    },
+    {
+      "id": "C012",
+      "from": "CAB1.D1:V",
+      "to": "CAB1.XT2:2",
+      "net": "V",
+      "scope": "internal",
+      "drawing_group": "power",
+      "cabinet": "CAB1",
+      "section_mm2": 2.5,
+      "color": "красный"
+    },
+    {
+      "id": "C013",
+      "from": "CAB1.XT2:2",
+      "to": "FIELD.M1:V",
+      "net": "V",
+      "scope": "external",
+      "drawing_group": "power",
+      "cable": "W1",
+      "core": "2"
+    },
+    {
+      "id": "C014",
+      "from": "CAB1.D1:W",
+      "to": "CAB1.XT2:3",
+      "net": "W",
+      "scope": "internal",
+      "drawing_group": "power",
+      "cabinet": "CAB1",
+      "section_mm2": 2.5,
+      "color": "красный"
+    },
+    {
+      "id": "C015",
+      "from": "CAB1.XT2:3",
+      "to": "FIELD.M1:W",
+      "net": "W",
+      "scope": "external",
+      "drawing_group": "power",
+      "cable": "W1",
+      "core": "3"
+    },
+    {
+      "id": "C016",
+      "from": "CAB1.XT1:3",
+      "to": "CAB1.PE1:1",
+      "net": "PE",
+      "scope": "internal",
+      "drawing_group": "pe",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "жёлто-зелёный"
+    },
+    {
+      "id": "C017",
+      "from": "CAB1.PE1:2",
+      "to": "CAB1.D1:PE",
+      "net": "PE",
+      "scope": "internal",
+      "drawing_group": "pe",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "жёлто-зелёный"
+    },
+    {
+      "id": "C018",
+      "from": "CAB1.PE1:3",
+      "to": "CAB1.XT2:4",
+      "net": "PE",
+      "scope": "internal",
+      "drawing_group": "pe",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "жёлто-зелёный"
+    },
+    {
+      "id": "C019",
+      "from": "CAB1.PE1:4",
+      "to": "CAB1.BODY:PE",
+      "net": "PE",
+      "scope": "internal",
+      "drawing_group": "pe",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "жёлто-зелёный"
+    },
+    {
+      "id": "C020",
+      "from": "CAB1.PE1:5",
+      "to": "CAB1.PLATE:PE",
+      "net": "PE",
+      "scope": "internal",
+      "drawing_group": "pe",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "жёлто-зелёный"
+    },
+    {
+      "id": "C021",
+      "from": "CAB1.BODY:PE",
+      "to": "CAB1.DOOR:PE",
+      "net": "PE",
+      "scope": "internal",
+      "drawing_group": "pe",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "жёлто-зелёный"
+    },
+    {
+      "id": "C022",
+      "from": "CAB1.XT2:4",
+      "to": "FIELD.M1:PE",
+      "net": "PE",
+      "scope": "external",
+      "drawing_group": "pe",
+      "cable": "W1",
+      "core": "4"
+    },
+    {
+      "id": "C023",
+      "from": "CAB1.G1:+V",
+      "to": "CAB1.A1:+24",
+      "net": "+24",
+      "scope": "internal",
+      "drawing_group": "supply",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "красный"
+    },
+    {
+      "id": "C024",
+      "from": "CAB1.G1:+V",
+      "to": "CAB1.A1:COM_OUT",
+      "net": "+24",
+      "scope": "internal",
+      "drawing_group": "supply",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "красный"
+    },
+    {
+      "id": "C025",
+      "from": "CAB1.G1:+V",
+      "to": "CAB1.K1:11",
+      "net": "+24",
+      "scope": "internal",
+      "drawing_group": "supply",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "красный"
+    },
+    {
+      "id": "C026",
+      "from": "CAB1.G1:+V",
+      "to": "CAB1.XT3:1",
+      "net": "+24",
+      "scope": "internal",
+      "drawing_group": "supply",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "красный"
+    },
+    {
+      "id": "C027",
+      "from": "CAB1.G1:+V",
+      "to": "CAB1.XT4:1",
+      "net": "+24",
+      "scope": "internal",
+      "drawing_group": "supply",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "красный"
+    },
+    {
+      "id": "C028",
+      "from": "CAB1.G1:-V",
+      "to": "CAB1.A1:0V",
+      "net": "0V",
+      "scope": "internal",
+      "drawing_group": "supply",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "чёрный"
+    },
+    {
+      "id": "C029",
+      "from": "CAB1.G1:-V",
+      "to": "CAB1.A1:COM_IN",
+      "net": "0V",
+      "scope": "internal",
+      "drawing_group": "supply",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "чёрный"
+    },
+    {
+      "id": "C030",
+      "from": "CAB1.G1:-V",
+      "to": "CAB1.A1:AI-",
+      "net": "0V",
+      "scope": "internal",
+      "drawing_group": "supply",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "чёрный"
+    },
+    {
+      "id": "C031",
+      "from": "CAB1.G1:-V",
+      "to": "CAB1.A1:AO-",
+      "net": "0V",
+      "scope": "internal",
+      "drawing_group": "supply",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "чёрный"
+    },
+    {
+      "id": "C032",
+      "from": "CAB1.G1:-V",
+      "to": "CAB1.K1:A2",
+      "net": "0V",
+      "scope": "internal",
+      "drawing_group": "supply",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "чёрный"
+    },
+    {
+      "id": "C033",
+      "from": "CAB1.G1:-V",
+      "to": "CAB1.D1:ACM",
+      "net": "0V",
+      "scope": "internal",
+      "drawing_group": "supply",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "чёрный"
+    },
+    {
+      "id": "C034",
+      "from": "CAB1.G1:-V",
+      "to": "CAB1.XT3:4",
+      "net": "0V",
+      "scope": "internal",
+      "drawing_group": "supply",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "чёрный"
+    },
+    {
+      "id": "C035",
+      "from": "CAB1.G1:-V",
+      "to": "CAB1.XT4:3",
+      "net": "0V",
+      "scope": "internal",
+      "drawing_group": "supply",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "чёрный"
+    },
+    {
+      "id": "C036",
+      "from": "CAB1.G1:-V",
+      "to": "CAB1.XT5:2",
+      "net": "0V",
+      "scope": "internal",
+      "drawing_group": "supply",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "чёрный"
+    },
+    {
+      "id": "C037",
+      "from": "CAB1.XT3:1",
+      "to": "CAB2.XT1:1",
+      "net": "+24",
+      "scope": "external",
+      "drawing_group": "control",
+      "cable": "W2",
+      "core": "1"
+    },
+    {
+      "id": "C038",
+      "from": "CAB2.XT1:2",
+      "to": "CAB1.XT3:2",
+      "net": "20",
+      "scope": "external",
+      "drawing_group": "control",
+      "cable": "W2",
+      "core": "2"
+    },
+    {
+      "id": "C039",
+      "from": "CAB1.XT3:3",
+      "to": "CAB2.XT1:3",
+      "net": "30",
+      "scope": "external",
+      "drawing_group": "control",
+      "cable": "W2",
+      "core": "3"
+    },
+    {
+      "id": "C040",
+      "from": "CAB1.XT3:4",
+      "to": "CAB2.XT1:4",
+      "net": "0V",
+      "scope": "external",
+      "drawing_group": "control",
+      "cable": "W2",
+      "core": "4"
+    },
+    {
+      "id": "C041",
+      "from": "CAB2.XT1:1",
+      "to": "CAB2.SB2:1",
+      "net": "+24",
+      "scope": "internal",
+      "drawing_group": "control",
+      "cabinet": "CAB2",
+      "section_mm2": 0.75,
+      "color": "красный"
+    },
+    {
+      "id": "C042",
+      "from": "CAB2.SB2:2",
+      "to": "CAB2.SB1:3",
+      "net": "15",
+      "scope": "internal",
+      "drawing_group": "control",
+      "cabinet": "CAB2",
+      "section_mm2": 0.75,
+      "color": "красный"
+    },
+    {
+      "id": "C043",
+      "from": "CAB2.SB1:4",
+      "to": "CAB2.XT1:2",
+      "net": "20",
+      "scope": "internal",
+      "drawing_group": "control",
+      "cabinet": "CAB2",
+      "section_mm2": 0.75,
+      "color": "красный"
+    },
+    {
+      "id": "C044",
+      "from": "CAB1.XT3:2",
+      "to": "CAB1.A1:DI0",
+      "net": "20",
+      "scope": "internal",
+      "drawing_group": "control",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "красный"
+    },
+    {
+      "id": "C045",
+      "from": "CAB1.A1:DO0",
+      "to": "CAB1.XT3:3",
+      "net": "30",
+      "scope": "internal",
+      "drawing_group": "control",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "красный"
+    },
+    {
+      "id": "C046",
+      "from": "CAB2.XT1:3",
+      "to": "CAB2.HL1:+",
+      "net": "30",
+      "scope": "internal",
+      "drawing_group": "control",
+      "cabinet": "CAB2",
+      "section_mm2": 0.75,
+      "color": "красный"
+    },
+    {
+      "id": "C047",
+      "from": "CAB2.XT1:4",
+      "to": "CAB2.HL1:-",
+      "net": "0V",
+      "scope": "internal",
+      "drawing_group": "control",
+      "cabinet": "CAB2",
+      "section_mm2": 0.75,
+      "color": "чёрный"
+    },
+    {
+      "id": "C048",
+      "from": "CAB2.XT1:1",
+      "to": "CAB2.A2:+24",
+      "net": "+24",
+      "scope": "internal",
+      "drawing_group": "control",
+      "cabinet": "CAB2",
+      "section_mm2": 0.75,
+      "color": "красный"
+    },
+    {
+      "id": "C049",
+      "from": "CAB2.XT1:4",
+      "to": "CAB2.A2:0V",
+      "net": "0V",
+      "scope": "internal",
+      "drawing_group": "control",
+      "cabinet": "CAB2",
+      "section_mm2": 0.75,
+      "color": "чёрный"
+    },
+    {
+      "id": "C050",
+      "from": "CAB1.A1:DO0",
+      "to": "CAB1.K1:A1",
+      "net": "30",
+      "scope": "internal",
+      "drawing_group": "control",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "красный"
+    },
+    {
+      "id": "C051",
+      "from": "CAB1.K1:14",
+      "to": "CAB1.XT5:1",
+      "net": "40",
+      "scope": "internal",
+      "drawing_group": "control",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "красный"
+    },
+    {
+      "id": "C052",
+      "from": "CAB1.XT5:1",
+      "to": "FIELD.YV1:+",
+      "net": "40",
+      "scope": "external",
+      "drawing_group": "control",
+      "cable": "W3",
+      "core": "1"
+    },
+    {
+      "id": "C053",
+      "from": "CAB1.XT5:2",
+      "to": "FIELD.YV1:-",
+      "net": "0V",
+      "scope": "external",
+      "drawing_group": "control",
+      "cable": "W3",
+      "core": "2"
+    },
+    {
+      "id": "C054",
+      "from": "FIELD.B1:+",
+      "to": "CAB1.XT4:1",
+      "net": "+24",
+      "scope": "external",
+      "drawing_group": "control",
+      "cable": "W4",
+      "core": "1"
+    },
+    {
+      "id": "C055",
+      "from": "FIELD.B1:OUT",
+      "to": "CAB1.XT4:2",
+      "net": "50",
+      "scope": "external",
+      "drawing_group": "control",
+      "cable": "W4",
+      "core": "2"
+    },
+    {
+      "id": "C056",
+      "from": "FIELD.B1:-",
+      "to": "CAB1.XT4:3",
+      "net": "0V",
+      "scope": "external",
+      "drawing_group": "control",
+      "cable": "W4",
+      "core": "3"
+    },
+    {
+      "id": "C057",
+      "from": "CAB1.XT4:2",
+      "to": "CAB1.A1:AI+",
+      "net": "50",
+      "scope": "internal",
+      "drawing_group": "control",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "красный"
+    },
+    {
+      "id": "C058",
+      "from": "CAB1.A1:AO+",
+      "to": "CAB1.D1:AVI",
+      "net": "60",
+      "scope": "internal",
+      "drawing_group": "control",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "красный"
+    }
+  ],
+  "terminals": [
+    {
+      "id": "CAB1.XT1:1",
+      "cabinet": "CAB1",
+      "group": "XT1",
+      "number": "1",
+      "ports": [
+        "CAB1.XT1:1"
+      ],
+      "spare": false
+    },
+    {
+      "id": "CAB1.XT1:2",
+      "cabinet": "CAB1",
+      "group": "XT1",
+      "number": "2",
+      "ports": [
+        "CAB1.XT1:2"
+      ],
+      "spare": false
+    },
+    {
+      "id": "CAB1.XT1:3",
+      "cabinet": "CAB1",
+      "group": "XT1",
+      "number": "3",
+      "ports": [
+        "CAB1.XT1:3"
+      ],
+      "spare": false
+    },
+    {
+      "id": "CAB1.XT2:1",
+      "cabinet": "CAB1",
+      "group": "XT2",
+      "number": "1",
+      "ports": [
+        "CAB1.XT2:1"
+      ],
+      "spare": false
+    },
+    {
+      "id": "CAB1.XT2:2",
+      "cabinet": "CAB1",
+      "group": "XT2",
+      "number": "2",
+      "ports": [
+        "CAB1.XT2:2"
+      ],
+      "spare": false
+    },
+    {
+      "id": "CAB1.XT2:3",
+      "cabinet": "CAB1",
+      "group": "XT2",
+      "number": "3",
+      "ports": [
+        "CAB1.XT2:3"
+      ],
+      "spare": false
+    },
+    {
+      "id": "CAB1.XT2:4",
+      "cabinet": "CAB1",
+      "group": "XT2",
+      "number": "4",
+      "ports": [
+        "CAB1.XT2:4"
+      ],
+      "spare": false
+    },
+    {
+      "id": "CAB1.XT3:1",
+      "cabinet": "CAB1",
+      "group": "XT3",
+      "number": "1",
+      "ports": [
+        "CAB1.XT3:1"
+      ],
+      "spare": false
+    },
+    {
+      "id": "CAB1.XT3:2",
+      "cabinet": "CAB1",
+      "group": "XT3",
+      "number": "2",
+      "ports": [
+        "CAB1.XT3:2"
+      ],
+      "spare": false
+    },
+    {
+      "id": "CAB1.XT3:3",
+      "cabinet": "CAB1",
+      "group": "XT3",
+      "number": "3",
+      "ports": [
+        "CAB1.XT3:3"
+      ],
+      "spare": false
+    },
+    {
+      "id": "CAB1.XT3:4",
+      "cabinet": "CAB1",
+      "group": "XT3",
+      "number": "4",
+      "ports": [
+        "CAB1.XT3:4"
+      ],
+      "spare": false
+    },
+    {
+      "id": "CAB1.XT3:5",
+      "cabinet": "CAB1",
+      "group": "XT3",
+      "number": "5",
+      "ports": [
+        "CAB1.XT3:5"
+      ],
+      "spare": true
+    },
+    {
+      "id": "CAB1.XT4:1",
+      "cabinet": "CAB1",
+      "group": "XT4",
+      "number": "1",
+      "ports": [
+        "CAB1.XT4:1"
+      ],
+      "spare": false
+    },
+    {
+      "id": "CAB1.XT4:2",
+      "cabinet": "CAB1",
+      "group": "XT4",
+      "number": "2",
+      "ports": [
+        "CAB1.XT4:2"
+      ],
+      "spare": false
+    },
+    {
+      "id": "CAB1.XT4:3",
+      "cabinet": "CAB1",
+      "group": "XT4",
+      "number": "3",
+      "ports": [
+        "CAB1.XT4:3"
+      ],
+      "spare": false
+    },
+    {
+      "id": "CAB1.XT4:4",
+      "cabinet": "CAB1",
+      "group": "XT4",
+      "number": "4",
+      "ports": [
+        "CAB1.XT4:4"
+      ],
+      "spare": true
+    },
+    {
+      "id": "CAB1.XT5:1",
+      "cabinet": "CAB1",
+      "group": "XT5",
+      "number": "1",
+      "ports": [
+        "CAB1.XT5:1"
+      ],
+      "spare": false
+    },
+    {
+      "id": "CAB1.XT5:2",
+      "cabinet": "CAB1",
+      "group": "XT5",
+      "number": "2",
+      "ports": [
+        "CAB1.XT5:2"
+      ],
+      "spare": false
+    },
+    {
+      "id": "CAB2.XT1:1",
+      "cabinet": "CAB2",
+      "group": "XT1",
+      "number": "1",
+      "ports": [
+        "CAB2.XT1:1"
+      ],
+      "spare": false
+    },
+    {
+      "id": "CAB2.XT1:2",
+      "cabinet": "CAB2",
+      "group": "XT1",
+      "number": "2",
+      "ports": [
+        "CAB2.XT1:2"
+      ],
+      "spare": false
+    },
+    {
+      "id": "CAB2.XT1:3",
+      "cabinet": "CAB2",
+      "group": "XT1",
+      "number": "3",
+      "ports": [
+        "CAB2.XT1:3"
+      ],
+      "spare": false
+    },
+    {
+      "id": "CAB2.XT1:4",
+      "cabinet": "CAB2",
+      "group": "XT1",
+      "number": "4",
+      "ports": [
+        "CAB2.XT1:4"
+      ],
+      "spare": false
+    },
+    {
+      "id": "CAB2.XT1:5",
+      "cabinet": "CAB2",
+      "group": "XT1",
+      "number": "5",
+      "ports": [
+        "CAB2.XT1:5"
+      ],
+      "spare": true
+    }
+  ],
+  "cables": [
+    {
+      "id": "W0",
+      "from_cabinet": "FIELD",
+      "to_cabinet": "CAB1",
+      "cores": [
+        {
+          "id": "1",
+          "spare": false
+        },
+        {
+          "id": "2",
+          "spare": false
+        },
+        {
+          "id": "3",
+          "spare": false
+        }
+      ],
+      "part": "EDU-W0",
+      "quantity": 1
+    },
+    {
+      "id": "W1",
+      "from_cabinet": "CAB1",
+      "to_cabinet": "FIELD",
+      "cores": [
+        {
+          "id": "1",
+          "spare": false
+        },
+        {
+          "id": "2",
+          "spare": false
+        },
+        {
+          "id": "3",
+          "spare": false
+        },
+        {
+          "id": "4",
+          "spare": false
+        }
+      ],
+      "part": "EDU-W1",
+      "quantity": 1
+    },
+    {
+      "id": "W2",
+      "from_cabinet": "CAB1",
+      "to_cabinet": "CAB2",
+      "cores": [
+        {
+          "id": "1",
+          "spare": false
+        },
+        {
+          "id": "2",
+          "spare": false
+        },
+        {
+          "id": "3",
+          "spare": false
+        },
+        {
+          "id": "4",
+          "spare": false
+        },
+        {
+          "id": "5",
+          "spare": true
+        }
+      ],
+      "part": "EDU-W2",
+      "quantity": 1
+    },
+    {
+      "id": "W3",
+      "from_cabinet": "CAB1",
+      "to_cabinet": "FIELD",
+      "cores": [
+        {
+          "id": "1",
+          "spare": false
+        },
+        {
+          "id": "2",
+          "spare": false
+        }
+      ],
+      "part": "EDU-W3",
+      "quantity": 1
+    },
+    {
+      "id": "W4",
+      "from_cabinet": "FIELD",
+      "to_cabinet": "CAB1",
+      "cores": [
+        {
+          "id": "1",
+          "spare": false
+        },
+        {
+          "id": "2",
+          "spare": false
+        },
+        {
+          "id": "3",
+          "spare": false
+        }
+      ],
+      "part": "EDU-W4",
+      "quantity": 1
+    }
+  ],
+  "references": [
+    {
+      "from": "1.1",
+      "to": "3.1",
+      "net": "+24",
+      "source_port": "CAB1.G1:+V"
+    },
+    {
+      "from": "3.1",
+      "to": "1.1",
+      "net": "+24",
+      "source_port": "CAB1.G1:+V"
+    },
+    {
+      "from": "2.1",
+      "to": "3.2",
+      "net": "30",
+      "source_port": "CAB1.K1:A1"
+    },
+    {
+      "from": "3.2",
+      "to": "2.1",
+      "net": "30",
+      "source_port": "CAB1.K1:A1"
+    }
+  ],
+  "wire_labels": [
+    {
+      "connection": "C004",
+      "text": "L",
+      "segment_from": "CAB1.XT1:1",
+      "segment_to": "CAB1.QF1:1"
+    },
+    {
+      "connection": "C005",
+      "text": "N",
+      "segment_from": "CAB1.XT1:2",
+      "segment_to": "CAB1.QF1:3"
+    },
+    {
+      "connection": "C006",
+      "text": "L1",
+      "segment_from": "CAB1.QF1:2",
+      "segment_to": "CAB1.G1:L"
+    },
+    {
+      "connection": "C007",
+      "text": "L1",
+      "segment_from": "CAB1.G1:L",
+      "segment_to": "CAB1.D1:L"
+    },
+    {
+      "connection": "C008",
+      "text": "N1",
+      "segment_from": "CAB1.QF1:4",
+      "segment_to": "CAB1.G1:N"
+    },
+    {
+      "connection": "C009",
+      "text": "N1",
+      "segment_from": "CAB1.G1:N",
+      "segment_to": "CAB1.D1:N"
+    },
+    {
+      "connection": "C010",
+      "text": "U",
+      "segment_from": "CAB1.D1:U",
+      "segment_to": "CAB1.XT2:1"
+    },
+    {
+      "connection": "C012",
+      "text": "V",
+      "segment_from": "CAB1.D1:V",
+      "segment_to": "CAB1.XT2:2"
+    },
+    {
+      "connection": "C014",
+      "text": "W",
+      "segment_from": "CAB1.D1:W",
+      "segment_to": "CAB1.XT2:3"
+    },
+    {
+      "connection": "C016",
+      "text": "PE",
+      "segment_from": "CAB1.XT1:3",
+      "segment_to": "CAB1.PE1:1"
+    },
+    {
+      "connection": "C017",
+      "text": "PE",
+      "segment_from": "CAB1.PE1:2",
+      "segment_to": "CAB1.D1:PE"
+    },
+    {
+      "connection": "C018",
+      "text": "PE",
+      "segment_from": "CAB1.PE1:3",
+      "segment_to": "CAB1.XT2:4"
+    },
+    {
+      "connection": "C019",
+      "text": "PE",
+      "segment_from": "CAB1.PE1:4",
+      "segment_to": "CAB1.BODY:PE"
+    },
+    {
+      "connection": "C020",
+      "text": "PE",
+      "segment_from": "CAB1.PE1:5",
+      "segment_to": "CAB1.PLATE:PE"
+    },
+    {
+      "connection": "C021",
+      "text": "PE",
+      "segment_from": "CAB1.BODY:PE",
+      "segment_to": "CAB1.DOOR:PE"
+    },
+    {
+      "connection": "C023",
+      "text": "+24",
+      "segment_from": "CAB1.G1:+V",
+      "segment_to": "CAB1.A1:+24"
+    },
+    {
+      "connection": "C024",
+      "text": "+24",
+      "segment_from": "CAB1.G1:+V",
+      "segment_to": "CAB1.A1:COM_OUT"
+    },
+    {
+      "connection": "C025",
+      "text": "+24",
+      "segment_from": "CAB1.G1:+V",
+      "segment_to": "CAB1.K1:11"
+    },
+    {
+      "connection": "C026",
+      "text": "+24",
+      "segment_from": "CAB1.G1:+V",
+      "segment_to": "CAB1.XT3:1"
+    },
+    {
+      "connection": "C027",
+      "text": "+24",
+      "segment_from": "CAB1.G1:+V",
+      "segment_to": "CAB1.XT4:1"
+    },
+    {
+      "connection": "C028",
+      "text": "0V",
+      "segment_from": "CAB1.G1:-V",
+      "segment_to": "CAB1.A1:0V"
+    },
+    {
+      "connection": "C029",
+      "text": "0V",
+      "segment_from": "CAB1.G1:-V",
+      "segment_to": "CAB1.A1:COM_IN"
+    },
+    {
+      "connection": "C030",
+      "text": "0V",
+      "segment_from": "CAB1.G1:-V",
+      "segment_to": "CAB1.A1:AI-"
+    },
+    {
+      "connection": "C031",
+      "text": "0V",
+      "segment_from": "CAB1.G1:-V",
+      "segment_to": "CAB1.A1:AO-"
+    },
+    {
+      "connection": "C032",
+      "text": "0V",
+      "segment_from": "CAB1.G1:-V",
+      "segment_to": "CAB1.K1:A2"
+    },
+    {
+      "connection": "C033",
+      "text": "0V",
+      "segment_from": "CAB1.G1:-V",
+      "segment_to": "CAB1.D1:ACM"
+    },
+    {
+      "connection": "C034",
+      "text": "0V",
+      "segment_from": "CAB1.G1:-V",
+      "segment_to": "CAB1.XT3:4"
+    },
+    {
+      "connection": "C035",
+      "text": "0V",
+      "segment_from": "CAB1.G1:-V",
+      "segment_to": "CAB1.XT4:3"
+    },
+    {
+      "connection": "C036",
+      "text": "0V",
+      "segment_from": "CAB1.G1:-V",
+      "segment_to": "CAB1.XT5:2"
+    },
+    {
+      "connection": "C041",
+      "text": "+24",
+      "segment_from": "CAB2.XT1:1",
+      "segment_to": "CAB2.SB2:1"
+    },
+    {
+      "connection": "C042",
+      "text": "15",
+      "segment_from": "CAB2.SB2:2",
+      "segment_to": "CAB2.SB1:3"
+    },
+    {
+      "connection": "C043",
+      "text": "20",
+      "segment_from": "CAB2.SB1:4",
+      "segment_to": "CAB2.XT1:2"
+    },
+    {
+      "connection": "C044",
+      "text": "20",
+      "segment_from": "CAB1.XT3:2",
+      "segment_to": "CAB1.A1:DI0"
+    },
+    {
+      "connection": "C045",
+      "text": "30",
+      "segment_from": "CAB1.A1:DO0",
+      "segment_to": "CAB1.XT3:3"
+    },
+    {
+      "connection": "C046",
+      "text": "30",
+      "segment_from": "CAB2.XT1:3",
+      "segment_to": "CAB2.HL1:+"
+    },
+    {
+      "connection": "C047",
+      "text": "0V",
+      "segment_from": "CAB2.XT1:4",
+      "segment_to": "CAB2.HL1:-"
+    },
+    {
+      "connection": "C048",
+      "text": "+24",
+      "segment_from": "CAB2.XT1:1",
+      "segment_to": "CAB2.A2:+24"
+    },
+    {
+      "connection": "C049",
+      "text": "0V",
+      "segment_from": "CAB2.XT1:4",
+      "segment_to": "CAB2.A2:0V"
+    },
+    {
+      "connection": "C050",
+      "text": "30",
+      "segment_from": "CAB1.A1:DO0",
+      "segment_to": "CAB1.K1:A1"
+    },
+    {
+      "connection": "C051",
+      "text": "40",
+      "segment_from": "CAB1.K1:14",
+      "segment_to": "CAB1.XT5:1"
+    },
+    {
+      "connection": "C057",
+      "text": "50",
+      "segment_from": "CAB1.XT4:2",
+      "segment_to": "CAB1.A1:AI+"
+    },
+    {
+      "connection": "C058",
+      "text": "60",
+      "segment_from": "CAB1.A1:AO+",
+      "segment_to": "CAB1.D1:AVI"
+    }
+  ],
+  "require_wire_labels": true,
+  "sheets": [
+    {
+      "id": "1",
+      "title": "Питание и защитные связи",
+      "sections": [
+        "1.1"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Сигналы ПЛК и внешние цепи",
+      "sections": [
+        "2.1"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Распределение 24 В и исполнительная цепь",
+      "sections": [
+        "3.1",
+        "3.2"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Обзор клемм",
+      "sections": [
+        "4.1"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Монтажная панель",
+      "sections": [
+        "5.1"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Дверь шкафа управления",
+      "sections": [
+        "6.1"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Перечень оборудования",
+      "sections": [
+        "7.1"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Соединения. Часть 1",
+      "sections": [
+        "8.1"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Соединения. Часть 2",
+      "sections": [
+        "9.1"
+      ]
+    }
+  ],
+  "cabinets": [
+    {
+      "id": "CAB1",
+      "enclosure_mm": [
+        800,
+        1200,
+        400
+      ],
+      "panel_mm": [
+        750,
+        1150
+      ],
+      "panel_origin_mm": [
+        25,
+        25
+      ],
+      "door_mm": [
+        800,
+        1200
+      ],
+      "quantity": 1,
+      "part": "EDU-CAB1",
+      "source": "Явно заданная учебная геометрия; не артикул изготовителя."
+    },
+    {
+      "id": "CAB2",
+      "enclosure_mm": [
+        400,
+        600,
+        250
+      ],
+      "panel_mm": [
+        350,
+        550
+      ],
+      "panel_origin_mm": [
+        25,
+        25
+      ],
+      "door_mm": [
+        400,
+        600
+      ],
+      "quantity": 1,
+      "part": "EDU-CAB2",
+      "source": "Явно заданная учебная геометрия; не артикул изготовителя."
+    }
+  ],
+  "placements": [
+    {
+      "device": "CAB1.QF1",
+      "cabinet": "CAB1",
+      "surface": "panel",
+      "bbox_mm": [
+        75,
+        95,
+        111,
+        185
+      ],
+      "clearance_mm": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "source": "Условный аппарат учебного примера",
+      "rail": "R1"
+    },
+    {
+      "device": "CAB1.G1",
+      "cabinet": "CAB1",
+      "surface": "panel",
+      "bbox_mm": [
+        75,
+        485,
+        130,
+        610
+      ],
+      "clearance_mm": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "source": "Условный аппарат учебного примера",
+      "rail": "R3"
+    },
+    {
+      "device": "CAB1.A1",
+      "cabinet": "CAB1",
+      "surface": "panel",
+      "bbox_mm": [
+        170,
+        500,
+        330,
+        600
+      ],
+      "clearance_mm": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "source": "Условный аппарат учебного примера",
+      "rail": "R3"
+    },
+    {
+      "device": "CAB1.K1",
+      "cabinet": "CAB1",
+      "surface": "panel",
+      "bbox_mm": [
+        75,
+        275,
+        90,
+        365
+      ],
+      "clearance_mm": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "source": "Условный аппарат учебного примера",
+      "rail": "R2"
+    },
+    {
+      "device": "CAB1.D1",
+      "cabinet": "CAB1",
+      "surface": "panel",
+      "bbox_mm": [
+        575,
+        145,
+        685,
+        375
+      ],
+      "clearance_mm": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "source": "Условный аппарат учебного примера"
+    },
+    {
+      "device": "CAB1.PE1",
+      "cabinet": "CAB1",
+      "surface": "panel",
+      "bbox_mm": [
+        160,
+        105,
+        185,
+        175
+      ],
+      "clearance_mm": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "source": "Условный аппарат учебного примера",
+      "rail": "R1"
+    },
+    {
+      "device": "CAB2.A2",
+      "cabinet": "CAB2",
+      "surface": "door",
+      "bbox_mm": [
+        95,
+        105,
+        305,
+        255
+      ],
+      "clearance_mm": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "source": "Условный аппарат учебного примера"
+    },
+    {
+      "device": "CAB2.SB1",
+      "cabinet": "CAB2",
+      "surface": "door",
+      "bbox_mm": [
+        109,
+        299,
+        131,
+        321
+      ],
+      "clearance_mm": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "source": "Условный аппарат учебного примера"
+    },
+    {
+      "device": "CAB2.SB2",
+      "cabinet": "CAB2",
+      "surface": "door",
+      "bbox_mm": [
+        181,
+        449,
+        219,
+        487
+      ],
+      "clearance_mm": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "source": "Условный аппарат учебного примера"
+    },
+    {
+      "device": "CAB2.HL1",
+      "cabinet": "CAB2",
+      "surface": "door",
+      "bbox_mm": [
+        189,
+        44,
+        211,
+        66
+      ],
+      "clearance_mm": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "source": "Условный аппарат учебного примера"
+    },
+    {
+      "device": "CAB1.XT1",
+      "cabinet": "CAB1",
+      "surface": "panel",
+      "bbox_mm": [
+        75,
+        785,
+        109,
+        855
+      ],
+      "clearance_mm": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "source": "Условный аппарат учебного примера",
+      "rail": "R4"
+    },
+    {
+      "device": "CAB1.XT2",
+      "cabinet": "CAB1",
+      "surface": "panel",
+      "bbox_mm": [
+        124,
+        785,
+        164,
+        855
+      ],
+      "clearance_mm": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "source": "Условный аппарат учебного примера",
+      "rail": "R4"
+    },
+    {
+      "device": "CAB1.XT3",
+      "cabinet": "CAB1",
+      "surface": "panel",
+      "bbox_mm": [
+        179,
+        785,
+        225,
+        855
+      ],
+      "clearance_mm": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "source": "Условный аппарат учебного примера",
+      "rail": "R4"
+    },
+    {
+      "device": "CAB1.XT4",
+      "cabinet": "CAB1",
+      "surface": "panel",
+      "bbox_mm": [
+        240,
+        785,
+        280,
+        855
+      ],
+      "clearance_mm": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "source": "Условный аппарат учебного примера",
+      "rail": "R4"
+    },
+    {
+      "device": "CAB1.XT5",
+      "cabinet": "CAB1",
+      "surface": "panel",
+      "bbox_mm": [
+        295,
+        785,
+        323,
+        855
+      ],
+      "clearance_mm": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "source": "Условный аппарат учебного примера",
+      "rail": "R4"
+    },
+    {
+      "device": "CAB2.XT1",
+      "cabinet": "CAB2",
+      "surface": "panel",
+      "bbox_mm": [
+        50,
+        300,
+        96,
+        350
+      ],
+      "clearance_mm": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "source": "Условный аппарат учебного примера"
+    }
+  ],
+  "bom": [
+    {
+      "part": "EDU-CAB1",
+      "title": "Корпус с монтажной панелью",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "CAB1",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 1,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 1
+    },
+    {
+      "part": "EDU-CAB2",
+      "title": "Корпус с монтажной панелью",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "CAB2",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 1,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 1
+    },
+    {
+      "part": "EDU-QF1",
+      "title": "Автомат 2P",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "CAB1.QF1",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 1,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 1
+    },
+    {
+      "part": "EDU-G1",
+      "title": "Источник 24 В",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "CAB1.G1",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 1,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 1
+    },
+    {
+      "part": "EDU-A1",
+      "title": "ПЛК",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "CAB1.A1",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 1,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 1
+    },
+    {
+      "part": "EDU-K1",
+      "title": "Промежуточное реле",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "CAB1.K1",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 1,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 1
+    },
+    {
+      "part": "EDU-D1",
+      "title": "Преобразователь частоты",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "CAB1.D1",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 1,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 1
+    },
+    {
+      "part": "EDU-PE1",
+      "title": "Шина PE",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "CAB1.PE1",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 1,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 1
+    },
+    {
+      "part": "EDU-BOND",
+      "title": "Комплект защитного соединения PE",
+      "unit": "компл.",
+      "members": [
+        {
+          "id": "CAB1.BODY",
+          "quantity": 1
+        },
+        {
+          "id": "CAB1.PLATE",
+          "quantity": 1
+        },
+        {
+          "id": "CAB1.DOOR",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 3,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 3
+    },
+    {
+      "part": "EDU-A2",
+      "title": "Панель оператора",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "CAB2.A2",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 1,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 1
+    },
+    {
+      "part": "EDU-SB1",
+      "title": "Пуск",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "CAB2.SB1",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 1,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 1
+    },
+    {
+      "part": "EDU-SB2",
+      "title": "Стоп",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "CAB2.SB2",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 1,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 1
+    },
+    {
+      "part": "EDU-HL1",
+      "title": "Работа",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "CAB2.HL1",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 1,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 1
+    },
+    {
+      "part": "EDU-TB",
+      "title": "Проходная клемма",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "CAB1.XT1",
+          "quantity": 3
+        },
+        {
+          "id": "CAB1.XT2",
+          "quantity": 4
+        },
+        {
+          "id": "CAB1.XT3",
+          "quantity": 5
+        },
+        {
+          "id": "CAB1.XT4",
+          "quantity": 4
+        },
+        {
+          "id": "CAB1.XT5",
+          "quantity": 2
+        },
+        {
+          "id": "CAB2.XT1",
+          "quantity": 5
+        }
+      ],
+      "installed_qty": 23,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 23
+    },
+    {
+      "part": "EDU-POWER",
+      "title": "Источник внешнего питания",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "FIELD.POWER",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 1,
+      "spare_qty": 0,
+      "stock_qty": 1,
+      "purchase_qty": 0
+    },
+    {
+      "part": "EDU-M1",
+      "title": "Двигатель",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "FIELD.M1",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 1,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 1
+    },
+    {
+      "part": "EDU-B1",
+      "title": "Аналоговый датчик",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "FIELD.B1",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 1,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 1
+    },
+    {
+      "part": "EDU-YV1",
+      "title": "Клапан",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "FIELD.YV1",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 1,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 1
+    },
+    {
+      "part": "EDU-DIN",
+      "title": "DIN-рейка",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "R1",
+          "quantity": 1
+        },
+        {
+          "id": "R2",
+          "quantity": 1
+        },
+        {
+          "id": "R3",
+          "quantity": 1
+        },
+        {
+          "id": "R4",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 4,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 4
+    },
+    {
+      "part": "EDU-DUCT",
+      "title": "Кабельный короб",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "D1",
+          "quantity": 1
+        },
+        {
+          "id": "D2",
+          "quantity": 1
+        },
+        {
+          "id": "D3",
+          "quantity": 1
+        },
+        {
+          "id": "D4",
+          "quantity": 1
+        },
+        {
+          "id": "DV1",
+          "quantity": 1
+        },
+        {
+          "id": "DV2",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 6,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 6
+    },
+    {
+      "part": "EDU-W0",
+      "title": "Учебная кабельная сборка W0",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "W0",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 1,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 1
+    },
+    {
+      "part": "EDU-W1",
+      "title": "Учебная кабельная сборка W1",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "W1",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 1,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 1
+    },
+    {
+      "part": "EDU-W2",
+      "title": "Учебная кабельная сборка W2",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "W2",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 1,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 1
+    },
+    {
+      "part": "EDU-W3",
+      "title": "Учебная кабельная сборка W3",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "W3",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 1,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 1
+    },
+    {
+      "part": "EDU-W4",
+      "title": "Учебная кабельная сборка W4",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "W4",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 1,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 1
+    },
+    {
+      "part": "EDU-W5",
+      "title": "Учебная кабельная сборка W5",
+      "unit": "шт.",
+      "members": [
+        {
+          "id": "W5",
+          "quantity": 1
+        }
+      ],
+      "installed_qty": 1,
+      "spare_qty": 0,
+      "stock_qty": 0,
+      "purchase_qty": 1
+    }
+  ],
+  "interfaces": [
+    {
+      "id": "W5",
+      "from": "CAB1.A1:ETH",
+      "to": "CAB2.A2:ETH",
+      "protocol": "Ethernet",
+      "scope": "external",
+      "part": "EDU-W5",
+      "quantity": 1
+    }
+  ],
+  "mechanical": [
+    {
+      "id": "R1",
+      "cabinet": "CAB1",
+      "kind": "rail",
+      "y_mm": 140,
+      "x_mm": 60,
+      "length_mm": 420,
+      "part": "EDU-DIN"
+    },
+    {
+      "id": "R2",
+      "cabinet": "CAB1",
+      "kind": "rail",
+      "y_mm": 320,
+      "x_mm": 60,
+      "length_mm": 420,
+      "part": "EDU-DIN"
+    },
+    {
+      "id": "R3",
+      "cabinet": "CAB1",
+      "kind": "rail",
+      "y_mm": 550,
+      "x_mm": 60,
+      "length_mm": 420,
+      "part": "EDU-DIN"
+    },
+    {
+      "id": "R4",
+      "cabinet": "CAB1",
+      "kind": "rail",
+      "y_mm": 820,
+      "x_mm": 60,
+      "length_mm": 640,
+      "part": "EDU-DIN"
+    },
+    {
+      "id": "D1",
+      "cabinet": "CAB1",
+      "kind": "duct",
+      "bbox_mm": [
+        50,
+        30,
+        490,
+        70
+      ],
+      "part": "EDU-DUCT"
+    },
+    {
+      "id": "D2",
+      "cabinet": "CAB1",
+      "kind": "duct",
+      "bbox_mm": [
+        50,
+        210,
+        490,
+        250
+      ],
+      "part": "EDU-DUCT"
+    },
+    {
+      "id": "D3",
+      "cabinet": "CAB1",
+      "kind": "duct",
+      "bbox_mm": [
+        50,
+        390,
+        490,
+        430
+      ],
+      "part": "EDU-DUCT"
+    },
+    {
+      "id": "D4",
+      "cabinet": "CAB1",
+      "kind": "duct",
+      "bbox_mm": [
+        50,
+        670,
+        720,
+        710
+      ],
+      "part": "EDU-DUCT"
+    },
+    {
+      "id": "DV1",
+      "cabinet": "CAB1",
+      "kind": "duct",
+      "bbox_mm": [
+        10,
+        30,
+        50,
+        1050
+      ],
+      "part": "EDU-DUCT"
+    },
+    {
+      "id": "DV2",
+      "cabinet": "CAB1",
+      "kind": "duct",
+      "bbox_mm": [
+        490,
+        30,
+        530,
+        1050
+      ],
+      "part": "EDU-DUCT"
+    }
+  ],
+  "door_cutouts": [
+    {
+      "device": "CAB2.A2",
+      "cabinet": "CAB2",
+      "bbox_mm": [
+        102,
+        112,
+        298,
+        248
+      ],
+      "diameter_mm": null
+    }
+  ],
+  "mounting_view": {
+    "scale": 4,
+    "coordinate_origin": "Левый верхний угол монтажной панели; X вправо, Y вниз."
+  },
+  "bom_include_cables": true
+}

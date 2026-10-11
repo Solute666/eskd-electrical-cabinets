@@ -1,0 +1,267 @@
+{
+  "date": "2026-10-11",
+  "package_version": "0.1.0",
+  "scope": "GitHub package preparation; client installation and public directory approval not performed.",
+  "skill_copy": {
+    "files": 72,
+    "byte_identical_to_installed_skill": true
+  },
+  "references": {
+    "checked_files": 39,
+    "errors": [],
+    "engineering_validation": false
+  },
+  "publication_scan": {
+    "passed": true,
+    "checked_files": 74,
+    "scope": "Known previous-project identifiers and absolute workspace paths in filenames, text and PDF metadata; fonts retain their supplied license.",
+    "limitations": [
+      "Checks supplied patterns; visual content and unlisted identities need separate review.",
+      "Run on a clean export, not the parent Git repository."
+    ]
+  },
+  "reproduced_release": {
+    "passed_within_scope": true,
+    "coverage": {
+      "model": {
+        "sheets": 9,
+        "devices": 23,
+        "ports": 83,
+        "connections": 58,
+        "terminals": 23,
+        "cables": 5,
+        "references": 4,
+        "wire_labels": 42,
+        "interfaces": 1
+      },
+      "assembly": {
+        "cabinets": 2,
+        "devices": 23,
+        "bom": 26,
+        "placements": 16,
+        "mechanical": 10,
+        "cables_in_bom": 6
+      },
+      "artifacts": 37,
+      "layout_files": 9,
+      "dxf_files": 9,
+      "readback_table_rows": 84
+    },
+    "errors": [],
+    "limitations": [
+      "Checks explicit adapter evidence and exported cells, not electrical calculations or manufacturer compliance.",
+      "Manual visual review of every changed sheet remains required."
+    ]
+  },
+  "reproduction": {
+    "scope": "Unchanged page appearance, text and size only",
+    "allowed_pages": [],
+    "checked_pages": [
+      {
+        "page": 1,
+        "same_size": true,
+        "same_text": true,
+        "same_image": true
+      },
+      {
+        "page": 2,
+        "same_size": true,
+        "same_text": true,
+        "same_image": true
+      },
+      {
+        "page": 3,
+        "same_size": true,
+        "same_text": true,
+        "same_image": true
+      },
+      {
+        "page": 4,
+        "same_size": true,
+        "same_text": true,
+        "same_image": true
+      },
+      {
+        "page": 5,
+        "same_size": true,
+        "same_text": true,
+        "same_image": true
+      },
+      {
+        "page": 6,
+        "same_size": true,
+        "same_text": true,
+        "same_image": true
+      },
+      {
+        "page": 7,
+        "same_size": true,
+        "same_text": true,
+        "same_image": true
+      },
+      {
+        "page": 8,
+        "same_size": true,
+        "same_text": true,
+        "same_image": true
+      },
+      {
+        "page": 9,
+        "same_size": true,
+        "same_text": true,
+        "same_image": true
+      }
+    ],
+    "errors": [],
+    "page_counts": [
+      9,
+      9
+    ],
+    "passed": true,
+    "changed_pages_validated": false
+  },
+  "self_check": {
+    "checks": [
+      {
+        "case": "valid_data",
+        "passed": true
+      },
+      {
+        "case": "empty_data_rejected",
+        "passed": true
+      },
+      {
+        "case": "unknown_pin",
+        "passed": true
+      },
+      {
+        "case": "label_before_local_terminal",
+        "passed": true
+      },
+      {
+        "case": "external_disguised_as_local",
+        "passed": true
+      },
+      {
+        "case": "terminal_missing_from_overview",
+        "passed": true
+      },
+      {
+        "case": "nonexistent_reference",
+        "passed": true
+      },
+      {
+        "case": "connected_spare_core",
+        "passed": true
+      },
+      {
+        "case": "duplicate_connection",
+        "passed": true
+      },
+      {
+        "case": "different_nets_on_one_pin",
+        "passed": true
+      },
+      {
+        "case": "empty_connections",
+        "passed": true
+      },
+      {
+        "case": "clear_geometry",
+        "passed": true
+      },
+      {
+        "case": "wire_through_label",
+        "passed": true
+      },
+      {
+        "case": "text_in_stamp",
+        "passed": true
+      },
+      {
+        "case": "complete_demo_model",
+        "passed": true
+      },
+      {
+        "case": "complete_demo_assembly",
+        "passed": true
+      },
+      {
+        "case": "empty_assembly_rejected",
+        "passed": true
+      },
+      {
+        "case": "panel_does_not_fit_changed_cabinet",
+        "passed": true
+      },
+      {
+        "case": "wrong_device_footprint",
+        "passed": true
+      },
+      {
+        "case": "device_beyond_panel",
+        "passed": true
+      },
+      {
+        "case": "device_collision",
+        "passed": true
+      },
+      {
+        "case": "device_hits_duct",
+        "passed": true
+      },
+      {
+        "case": "missing_rail",
+        "passed": true
+      },
+      {
+        "case": "wrong_BOM_total",
+        "passed": true
+      },
+      {
+        "case": "wrong_procurement_total",
+        "passed": true
+      },
+      {
+        "case": "lost_BOM_member",
+        "passed": true
+      },
+      {
+        "case": "lost_cable_in_BOM",
+        "passed": true
+      },
+      {
+        "case": "door_cutout_outside_bezel",
+        "passed": true
+      },
+      {
+        "case": "unknown_interface_port",
+        "passed": true
+      },
+      {
+        "case": "actual_export_readback",
+        "passed": true
+      },
+      {
+        "case": "old_export_after_cabinet_change",
+        "passed": true
+      },
+      {
+        "case": "mismatching_exported_BOM",
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "zip": {
+    "files": 74,
+    "bytes": 2091283,
+    "sha256": "883fafec50c94a6f3d9fd0c1404fbd63541f433b1124a5f507274b3d2ae7e382"
+  },
+  "package_structure": {
+    "passed": true,
+    "relative_links_resolve": true,
+    "zip_matches_source": true,
+    "official_portal_validation": "not_run"
+  }
+}

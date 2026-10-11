@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "reportlab": "4.4.9",
+    "PyMuPDF": "1.26.6",
+    "ezdxf": "1.4.4"
+  },
+  "coordinate_units": "paper millimetres",
+  "fonts": "Bundled DejaVu Sans, regular and bold; licence included",
+  "baseline_render_check_dpi": 80,
+  "physical_printer_tested": false
+}

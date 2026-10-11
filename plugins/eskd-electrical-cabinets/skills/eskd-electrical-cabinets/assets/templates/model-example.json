@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "project": {
+    "name": "EXAMPLE",
+    "purpose": "Fictional data structure example, not an equipment design"
+  },
+  "sheets": [
+    {
+      "id": "1",
+      "sections": [
+        "1.1"
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "id": "CAB2.SB1",
+      "model": "EXAMPLE-CONTACT",
+      "cabinet": "CAB2"
+    },
+    {
+      "id": "CAB2.XT1",
+      "model": "EXAMPLE-TERMINAL",
+      "cabinet": "CAB2"
+    },
+    {
+      "id": "CAB1.XT1",
+      "model": "EXAMPLE-TERMINAL",
+      "cabinet": "CAB1"
+    },
+    {
+      "id": "CAB1.A1",
+      "model": "EXAMPLE-PLC",
+      "cabinet": "CAB1"
+    }
+  ],
+  "ports": [
+    {
+      "id": "CAB2.SB1:4",
+      "device": "CAB2.SB1",
+      "factory_label": "4",
+      "net": "20"
+    },
+    {
+      "id": "CAB2.XT1:1",
+      "device": "CAB2.XT1",
+      "factory_label": "1",
+      "net": "20",
+      "kind": "terminal"
+    },
+    {
+      "id": "CAB1.XT1:1",
+      "device": "CAB1.XT1",
+      "factory_label": "1",
+      "net": "20",
+      "kind": "terminal"
+    },
+    {
+      "id": "CAB1.A1@L01",
+      "device": "CAB1.A1",
+      "factory_label": "X0",
+      "address": "X0.0",
+      "side": "left",
+      "order": 1,
+      "net": "20"
+    }
+  ],
+  "connections": [
+    {
+      "id": "w1",
+      "from": "CAB2.SB1:4",
+      "to": "CAB2.XT1:1",
+      "net": "20",
+      "scope": "internal",
+      "cabinet": "CAB2",
+      "section_mm2": 0.75,
+      "color": "red"
+    },
+    {
+      "id": "c1",
+      "from": "CAB2.XT1:1",
+      "to": "CAB1.XT1:1",
+      "net": "20",
+      "scope": "external",
+      "cable": "W8",
+      "core": "5"
+    },
+    {
+      "id": "w2",
+      "from": "CAB1.XT1:1",
+      "to": "CAB1.A1@L01",
+      "net": "20",
+      "scope": "internal",
+      "cabinet": "CAB1",
+      "section_mm2": 0.75,
+      "color": "red"
+    }
+  ],
+  "cables": [
+    {
+      "id": "W8",
+      "cores": [
+        {
+          "id": "5",
+          "spare": false
+        },
+        {
+          "id": "6",
+          "spare": true
+        }
+      ]
+    }
+  ],
+  "terminals": [
+    {
+      "id": "CAB2.XT1:1",
+      "cabinet": "CAB2",
+      "group": "XT1",
+      "number": "1",
+      "ports": [
+        "CAB2.XT1:1"
+      ],
+      "spare": false
+    },
+    {
+      "id": "CAB1.XT1:1",
+      "cabinet": "CAB1",
+      "group": "XT1",
+      "number": "1",
+      "ports": [
+        "CAB1.XT1:1"
+      ],
+      "spare": false
+    }
+  ],
+  "references": [],
+  "require_wire_labels": true,
+  "wire_labels": [
+    {
+      "connection": "w1",
+      "text": "20",
+      "segment_from": "CAB2.SB1:4",
+      "segment_to": "CAB2.XT1:1"
+    },
+    {
+      "connection": "w2",
+      "text": "20",
+      "segment_from": "CAB1.XT1:1",
+      "segment_to": "CAB1.A1@L01"
+    }
+  ]
+}

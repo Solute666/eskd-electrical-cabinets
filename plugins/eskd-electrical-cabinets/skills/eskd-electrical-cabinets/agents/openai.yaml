@@ -1,0 +1,14 @@
+interface:
+  display_name: Электрические и монтажные схемы ЕСКД
+  short_description: Схемы шкафов по проверенным правилам и образцам
+  default_prompt: Примени $eskd-electrical-cabinets для подготовки электрических и
+    монтажных схем с проверкой соединений, оформления и соответствия спецификации.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

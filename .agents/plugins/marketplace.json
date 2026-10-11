@@ -1,0 +1,20 @@
+{
+  "name": "solute666-engineering",
+  "interface": {
+    "displayName": "Solute666 — инженерные навыки"
+  },
+  "plugins": [
+    {
+      "name": "eskd-electrical-cabinets",
+      "source": {
+        "source": "local",
+        "path": "./plugins/eskd-electrical-cabinets"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

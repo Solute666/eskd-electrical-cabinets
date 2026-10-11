@@ -1,0 +1,301 @@
+{
+  "date": "2026-10-11",
+  "scope": "Validation of this skill revision, not a guarantee for future projects.",
+  "model_sha256": "f19ed645196f3e8ef354e6cd8717d11b89c4b7ae9d19f34a628817fdee8fefc3",
+  "self_check": {
+    "checks": [
+      {
+        "case": "valid_data",
+        "passed": true
+      },
+      {
+        "case": "empty_data_rejected",
+        "passed": true
+      },
+      {
+        "case": "unknown_pin",
+        "passed": true
+      },
+      {
+        "case": "label_before_local_terminal",
+        "passed": true
+      },
+      {
+        "case": "external_disguised_as_local",
+        "passed": true
+      },
+      {
+        "case": "terminal_missing_from_overview",
+        "passed": true
+      },
+      {
+        "case": "nonexistent_reference",
+        "passed": true
+      },
+      {
+        "case": "connected_spare_core",
+        "passed": true
+      },
+      {
+        "case": "duplicate_connection",
+        "passed": true
+      },
+      {
+        "case": "different_nets_on_one_pin",
+        "passed": true
+      },
+      {
+        "case": "empty_connections",
+        "passed": true
+      },
+      {
+        "case": "clear_geometry",
+        "passed": true
+      },
+      {
+        "case": "wire_through_label",
+        "passed": true
+      },
+      {
+        "case": "text_in_stamp",
+        "passed": true
+      },
+      {
+        "case": "complete_demo_model",
+        "passed": true
+      },
+      {
+        "case": "complete_demo_assembly",
+        "passed": true
+      },
+      {
+        "case": "empty_assembly_rejected",
+        "passed": true
+      },
+      {
+        "case": "panel_does_not_fit_changed_cabinet",
+        "passed": true
+      },
+      {
+        "case": "wrong_device_footprint",
+        "passed": true
+      },
+      {
+        "case": "device_beyond_panel",
+        "passed": true
+      },
+      {
+        "case": "device_collision",
+        "passed": true
+      },
+      {
+        "case": "device_hits_duct",
+        "passed": true
+      },
+      {
+        "case": "missing_rail",
+        "passed": true
+      },
+      {
+        "case": "wrong_BOM_total",
+        "passed": true
+      },
+      {
+        "case": "wrong_procurement_total",
+        "passed": true
+      },
+      {
+        "case": "lost_BOM_member",
+        "passed": true
+      },
+      {
+        "case": "lost_cable_in_BOM",
+        "passed": true
+      },
+      {
+        "case": "door_cutout_outside_bezel",
+        "passed": true
+      },
+      {
+        "case": "unknown_interface_port",
+        "passed": true
+      },
+      {
+        "case": "actual_export_readback",
+        "passed": true
+      },
+      {
+        "case": "old_export_after_cabinet_change",
+        "passed": true
+      },
+      {
+        "case": "mismatching_exported_BOM",
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "reproduction": {
+    "scope": "Unchanged page appearance, text and size only",
+    "allowed_pages": [],
+    "checked_pages": [
+      {
+        "page": 1,
+        "same_size": true,
+        "same_text": true,
+        "same_image": true
+      },
+      {
+        "page": 2,
+        "same_size": true,
+        "same_text": true,
+        "same_image": true
+      },
+      {
+        "page": 3,
+        "same_size": true,
+        "same_text": true,
+        "same_image": true
+      },
+      {
+        "page": 4,
+        "same_size": true,
+        "same_text": true,
+        "same_image": true
+      },
+      {
+        "page": 5,
+        "same_size": true,
+        "same_text": true,
+        "same_image": true
+      },
+      {
+        "page": 6,
+        "same_size": true,
+        "same_text": true,
+        "same_image": true
+      },
+      {
+        "page": 7,
+        "same_size": true,
+        "same_text": true,
+        "same_image": true
+      },
+      {
+        "page": 8,
+        "same_size": true,
+        "same_text": true,
+        "same_image": true
+      },
+      {
+        "page": 9,
+        "same_size": true,
+        "same_text": true,
+        "same_image": true
+      }
+    ],
+    "errors": [],
+    "page_counts": [
+      9,
+      9
+    ],
+    "passed": true,
+    "changed_pages_validated": false
+  },
+  "demo_release": {
+    "passed_within_scope": true,
+    "coverage": {
+      "model": {
+        "sheets": 9,
+        "devices": 23,
+        "ports": 83,
+        "connections": 58,
+        "terminals": 23,
+        "cables": 5,
+        "references": 4,
+        "wire_labels": 42,
+        "interfaces": 1
+      },
+      "assembly": {
+        "cabinets": 2,
+        "devices": 23,
+        "bom": 26,
+        "placements": 16,
+        "mechanical": 10,
+        "cables_in_bom": 6
+      },
+      "artifacts": 37,
+      "layout_files": 9,
+      "dxf_files": 9,
+      "readback_table_rows": 84
+    },
+    "errors": [],
+    "limitations": [
+      "Checks explicit adapter evidence and exported cells, not electrical calculations or manufacturer compliance.",
+      "Manual visual review of every changed sheet remains required."
+    ]
+  },
+  "preservation": {
+    "presentation_rules": 18,
+    "mounting_rules": 5,
+    "drawing_executable_ast_unchanged": true
+  },
+  "forward_test": {
+    "task": "Independent one-sheet dimensional panel layout with different source data.",
+    "source_sha256": "937bfa9f17484c08f51669a65a44936ec632be0de16c26c3d5475f1da0d4fcdc",
+    "detected_source_conflict": "Power supply and PLC overlap; corrected by moving PLC while preserving device and panel dimensions.",
+    "final_model_errors": 0,
+    "final_assembly_errors": 0,
+    "final_layout_errors": 0,
+    "export_check": {
+      "passed_within_scope": true,
+      "scope": "Actual single panel-sheet exports, source preservation, PDF cells, vector geometry and DXF structure",
+      "coverage": {
+        "dxf_line_entities": 323,
+        "dxf_units": "millimetres of paper; panel geometry scaled 1:4",
+        "dxf_structure_errors": 0,
+        "dxf_structure_fixes": 0,
+        "pdf_pages": 1,
+        "pdf_format_mm": [
+          594.000177001953,
+          419.99994506835935
+        ],
+        "embedded_pdf_fonts": [
+          "AAAAAA+DejaVuSans",
+          "AAAAAA+DejaVuSans-Bold"
+        ],
+        "unused_pdf_font_resources": [
+          "Helvetica"
+        ],
+        "raster_images_in_pdf": 0,
+        "pdf_line_segments": 323,
+        "readback_pdf_table_rows": 15,
+        "readback_pdf_table_cells": 80,
+        "actual_panel_bbox_paper_mm": [
+          75,
+          86,
+          212.5,
+          323.5
+        ],
+        "actual_panel_extent_product_mm": [
+          550,
+          950
+        ],
+        "model_appliances": 5
+      },
+      "errors": [],
+      "limitations": [
+        "Full audit_release.py is for electrical/BOM sets and is not applicable to this single mounting sheet.",
+        "Teaching apparatus dimensions are supplied values; depths, clip positions and fixing holes are not determined.",
+        "DIN rail outlines are symbolic; only axis positions and lengths are dimensioned.",
+        "Manual visual review remains required."
+      ]
+    },
+    "visual_review_completed": true
+  },
+  "limitations": [
+    "Injected-error cases establish only the tested detection behaviour.",
+    "One independent layout task does not establish performance across all engineering tasks.",
+    "Manufacturer data, electrical calculations, safety functions and standards compliance require separate validation."
+  ]
+}
