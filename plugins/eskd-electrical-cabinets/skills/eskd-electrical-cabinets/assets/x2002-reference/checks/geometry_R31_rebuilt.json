@@ -1,0 +1,66 @@
+{
+  "revision": 31,
+  "modified_mount_pages": [
+    1
+  ],
+  "errors": [],
+  "text_issues": [],
+  "checked_placements": 58,
+  "checked_ducts": 8,
+  "checked_rails": 5,
+  "clearances": [
+    {
+      "tag": "G1/A1/A2/A3/A4",
+      "members": [
+        "G1",
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "x": 100,
+      "y": 415.85,
+      "w": 337.5,
+      "h": 198.29999999999995
+    },
+    {
+      "tag": "G2",
+      "members": [
+        "G2"
+      ],
+      "x": 50,
+      "y": 413.2,
+      "w": 50,
+      "h": 183.59999999999997
+    },
+    {
+      "tag": "KSR1",
+      "members": [
+        "KSR1"
+      ],
+      "x": 435,
+      "y": 403,
+      "w": 32.5,
+      "h": 224
+    },
+    {
+      "tag": "UZ1",
+      "members": [
+        "UZ1"
+      ],
+      "x": 520,
+      "y": 323,
+      "w": 169,
+      "h": 307
+    }
+  ],
+  "open_requirement": {
+    "requested_DIN3_duct_pitch_mm": 200,
+    "actual_DIN3_duct_pitch_mm": 270,
+    "status": "Не выполнено; вариант с сохранением паспортных зазоров",
+    "reason": "KSR1 G9SE-401: высота 124 мм + 50 мм сверху + 50 мм снизу + 40 мм ширина короба = 264 мм между осями; принят шаг 270 мм."
+  },
+  "electrical_connections_changed": false,
+  "cutting_holes_specified": false,
+  "scope": "Размеры и зазоры вида спереди. Дверь ШО, электрические связи и сверление не изменяются. Глубина компоновки не пересчитывалась."
+}

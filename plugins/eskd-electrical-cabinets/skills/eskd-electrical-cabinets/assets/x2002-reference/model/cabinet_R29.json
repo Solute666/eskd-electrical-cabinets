@@ -1,0 +1,56 @@
+{
+  "revision": 29,
+  "date": "12.10.2026",
+  "enclosure": {
+    "part": "R5ST1284",
+    "height": 1200,
+    "width": 800,
+    "depth": 400,
+    "quantity": 2,
+    "source": "https://www.dkc.ru/ru/catalog/165/r5st1284/"
+  },
+  "panel": {
+    "part": "R5ST128MP",
+    "height": 1150,
+    "width": 750,
+    "included": true,
+    "source": "https://www.dkc.ru/ru/catalog/164/r5st128mp/"
+  },
+  "rail_y": [
+    110,
+    290,
+    570,
+    850,
+    1030
+  ],
+  "duct_y": [
+    20,
+    200,
+    380,
+    760,
+    940
+  ],
+  "side_centers": [
+    {
+      "tag": "QS1",
+      "side": "правая",
+      "from_top": 250,
+      "from_bottom": 950,
+      "from_front": 200
+    },
+    {
+      "tag": "M2",
+      "side": "правая",
+      "from_top": 1000,
+      "from_bottom": 200,
+      "from_front": 200
+    },
+    {
+      "tag": "EF1",
+      "side": "левая",
+      "from_top": 200,
+      "from_bottom": 1000,
+      "from_front": 200
+    }
+  ]
+}

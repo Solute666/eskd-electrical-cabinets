@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-11",
-  "scope": "Validation of this skill revision, not a guarantee for future projects.",
-  "model_sha256": "f19ed645196f3e8ef354e6cd8717d11b89c4b7ae9d19f34a628817fdee8fefc3",
-  "self_check": {
+  "date": "2026-10-13",
+  "reference": "X2002 before custom operator enclosure",
+  "skill_structure_validation": true,
+  "self_checks": {
     "checks": [
       {
         "case": "valid_data",
@@ -135,167 +135,82 @@
     ],
     "passed": true
   },
-  "reproduction": {
-    "scope": "Unchanged page appearance, text and size only",
-    "allowed_pages": [],
-    "checked_pages": [
+  "reference_verifier_negative_cases": {
+    "checks": [
       {
-        "page": 1,
-        "same_size": true,
-        "same_text": true,
-        "same_image": true
+        "case": "changed_model_purchase_is_rejected",
+        "passed": true
       },
       {
-        "page": 2,
-        "same_size": true,
-        "same_text": true,
-        "same_image": true
-      },
-      {
-        "page": 3,
-        "same_size": true,
-        "same_text": true,
-        "same_image": true
-      },
-      {
-        "page": 4,
-        "same_size": true,
-        "same_text": true,
-        "same_image": true
-      },
-      {
-        "page": 5,
-        "same_size": true,
-        "same_text": true,
-        "same_image": true
-      },
-      {
-        "page": 6,
-        "same_size": true,
-        "same_text": true,
-        "same_image": true
-      },
-      {
-        "page": 7,
-        "same_size": true,
-        "same_text": true,
-        "same_image": true
-      },
-      {
-        "page": 8,
-        "same_size": true,
-        "same_text": true,
-        "same_image": true
-      },
-      {
-        "page": 9,
-        "same_size": true,
-        "same_text": true,
-        "same_image": true
+        "case": "empty_pdf_readback_is_rejected",
+        "passed": true
       }
     ],
-    "errors": [],
-    "page_counts": [
-      9,
-      9
+    "passed": true
+  },
+  "reference_consistency": "assets/x2002-reference/checks/consistency.json",
+  "reproduction": [
+    "assets/x2002-reference/checks/reproduction_electrical.json",
+    "assets/x2002-reference/checks/reproduction_mounting.json"
+  ],
+  "current_assembly_check": "assets/x2002-reference/checks/assembly_geometry_rechecked.json",
+  "visual_review": "assets/x2002-reference/checks/review.json",
+  "independent_application": {
+    "status": "completed",
+    "task": "New УК1 DI fragment using a remote pushbutton, two cabinet terminals, an external cable core and a locally labelled wire. No PLC model or enclosure size supplied.",
+    "reference_pages_used": [
+      "Э3 Р27 page 3, section 3.1",
+      "Э3 Р27 page 8, section 8.2"
     ],
-    "passed": true,
-    "changed_pages_validated": false
-  },
-  "demo_release": {
-    "passed_within_scope": true,
-    "coverage": {
-      "model": {
-        "sheets": 9,
-        "devices": 23,
-        "ports": 83,
-        "connections": 58,
-        "terminals": 23,
-        "cables": 5,
-        "references": 4,
-        "wire_labels": 42,
-        "interfaces": 1
-      },
-      "assembly": {
-        "cabinets": 2,
-        "devices": 23,
-        "bom": 26,
-        "placements": 16,
-        "mechanical": 10,
-        "cables_in_bom": 6
-      },
-      "artifacts": 37,
-      "layout_files": 9,
-      "dxf_files": 9,
-      "readback_table_rows": 84
-    },
-    "errors": [],
-    "limitations": [
-      "Checks explicit adapter evidence and exported cells, not electrical calculations or manufacturer compliance.",
-      "Manual visual review of every changed sheet remains required."
-    ]
-  },
-  "preservation": {
-    "presentation_rules": 18,
-    "mounting_rules": 5,
-    "drawing_executable_ast_unchanged": true
-  },
-  "forward_test": {
-    "task": "Independent one-sheet dimensional panel layout with different source data.",
-    "source_sha256": "937bfa9f17484c08f51669a65a44936ec632be0de16c26c3d5475f1da0d4fcdc",
-    "detected_source_conflict": "Power supply and PLC overlap; corrected by moving PLC while preserving device and panel dimensions.",
-    "final_model_errors": 0,
-    "final_assembly_errors": 0,
-    "final_layout_errors": 0,
-    "export_check": {
-      "passed_within_scope": true,
-      "scope": "Actual single panel-sheet exports, source preservation, PDF cells, vector geometry and DXF structure",
-      "coverage": {
-        "dxf_line_entities": 323,
-        "dxf_units": "millimetres of paper; panel geometry scaled 1:4",
-        "dxf_structure_errors": 0,
-        "dxf_structure_fixes": 0,
-        "pdf_pages": 1,
-        "pdf_format_mm": [
-          594.000177001953,
-          419.99994506835935
-        ],
-        "embedded_pdf_fonts": [
-          "AAAAAA+DejaVuSans",
-          "AAAAAA+DejaVuSans-Bold"
-        ],
-        "unused_pdf_font_resources": [
-          "Helvetica"
-        ],
-        "raster_images_in_pdf": 0,
-        "pdf_line_segments": 323,
-        "readback_pdf_table_rows": 15,
-        "readback_pdf_table_cells": 80,
-        "actual_panel_bbox_paper_mm": [
-          75,
-          86,
-          212.5,
-          323.5
-        ],
-        "actual_panel_extent_product_mm": [
-          550,
-          950
-        ],
-        "model_appliances": 5
-      },
-      "errors": [],
-      "limitations": [
-        "Full audit_release.py is for electrical/BOM sets and is not applicable to this single mounting sheet.",
-        "Teaching apparatus dimensions are supplied values; depths, clip positions and fixing holes are not determined.",
-        "DIN rail outlines are symbolic; only axis positions and lengths are dimensioned.",
-        "Manual visual review remains required."
+    "observed": [
+      "Circular terminals and explicit ПУ1/УК1 boundaries",
+      "Wire 20 between local terminal and PLC input",
+      "X0 factory label separate from I0.0 program address",
+      "Function below the wire",
+      "No inherited X2002 model, dimensions, project ID or dates",
+      "Missing remote-local wire section/color reported rather than invented"
+    ],
+    "verification": {
+      "scope": "Заданный фрагмент, его экспорт и размещение маркировок; не полный проект шкафа",
+      "required_fragment_content_passed": true,
+      "pdf_pages": 1,
+      "pdf_format_mm": [
+        210,
+        297
+      ],
+      "pdf_raster_images": 0,
+      "pdf_used_fonts": [
+        "DejaVuSans",
+        "DejaVuSans-Bold"
+      ],
+      "used_fonts_embedded": true,
+      "dxf_units": "mm бумаги",
+      "dxf_native_texts": 56,
+      "dxf_audit_errors": 0,
+      "dxf_audit_fixes": 0,
+      "known_unprovided_fields": [
+        "pu1-local: missing section_mm2",
+        "pu1-local: missing color"
+      ],
+      "full_engineering_validation": false,
+      "files": [
+        {
+          "name": "UK1_DI_start.dxf",
+          "sha256": "bdd4bea69b472e027acf73a02fe138bc8e35f5461e23929f73047b9e22249fd4"
+        },
+        {
+          "name": "UK1_DI_start.pdf",
+          "sha256": "d3617582fae302e8eb2fb6936a94bb440f69a68f131a6658def5b8f36d598be0"
+        },
+        {
+          "name": "UK1_DI_start.svg",
+          "sha256": "a1ea8063878153afbda9972daf6f6e6d13e232d0442cf6b9221a5287f7042d6b"
+        }
       ]
     },
-    "visual_review_completed": true
+    "reviewed_by_parent": true,
+    "retained_as_appearance_reference": false,
+    "scope": "Fragment formatting and navigation only; the incomplete engineering model is not reported as a complete pass."
   },
-  "limitations": [
-    "Injected-error cases establish only the tested detection behaviour.",
-    "One independent layout task does not establish performance across all engineering tasks.",
-    "Manufacturer data, electrical calculations, safety functions and standards compliance require separate validation."
-  ]
+  "scope": "Reference selection, style guidance, deterministic reproduction and stated consistency checks. Not full engineering certification."
 }

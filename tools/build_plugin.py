@@ -3,8 +3,37 @@
 import argparse
 import hashlib
 import json
-from pathlib import Path
+from pathlib import Path, PurePosixPath
+import stat
 import zipfile
+
+
+def inspect_source_archive(path, root):
+    """Allow only frozen source ZIPs whose contents have been checked separately."""
+    skill = root / "skills" / "eskd-electrical-cabinets"
+    source_dir = skill / "assets" / "x2002-reference" / "sources"
+    if path.parent != source_dir or path.suffix != ".zip":
+        raise SystemExit(f"Archive requires separate inspection: {path.relative_to(root)}")
+    reference = skill / "assets/x2002-reference"
+    manifest = json.loads((reference / "file-manifest.json").read_text(encoding="utf-8"))
+    expected = {row["path"]: row["sha256"] for row in manifest["files"]}
+    rel = path.relative_to(reference).as_posix()
+    if expected.get(rel) != hashlib.sha256(path.read_bytes()).hexdigest():
+        raise SystemExit(f"Archive is missing from manifest or changed: {rel}")
+    with zipfile.ZipFile(path) as archive:
+        if archive.testzip():
+            raise SystemExit(f"Corrupt source archive: {rel}")
+        for member in archive.infolist():
+            name = member.filename.replace("\\", "/")
+            parts = PurePosixPath(name)
+            mode = member.external_attr >> 16
+            if (parts.is_absolute() or ".." in parts.parts or ":" in name
+                    or stat.S_ISLNK(mode) or member.flag_bits & 1):
+                raise SystemExit(f"Unsafe or encrypted source entry: {rel}: {name}")
+            if any(p in {".git", "__pycache__", ".venv"} for p in parts.parts):
+                raise SystemExit(f"History/cache in source archive: {rel}: {name}")
+            if parts.suffix.lower() in {".zip", ".7z", ".pyc", ".pyo"}:
+                raise SystemExit(f"Nested archive/cache requires inspection: {rel}: {name}")
 
 
 def main():
@@ -29,7 +58,7 @@ def main():
         if not path.is_file() or path.suffix in {".pyc", ".pyo"}:
             continue
         if path.suffix in {".zip", ".7z"}:
-            raise SystemExit(f"Nested archive requires separate inspection: {rel}")
+            inspect_source_archive(path, root)
         files.append(path)
     args.out.mkdir(parents=True, exist_ok=True)
     target = args.out / f"{manifest['name']}-{manifest['version']}.zip"

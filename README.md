@@ -2,17 +2,21 @@
 
 Навык для ChatGPT и Codex: подготовка и исправление схем шкафов автоматики, согласование соединений и спецификации, проверка размещения аппаратов и оформления листов.
 
-**Версия пакета: 0.1.0.** Исходники размещены в GitHub. Пакет подготовлен для установки из репозитория; публикация в общем каталоге OpenAI ещё не выполнена. Установка в приложении пользователя проверяется отдельно от проверки файлов пакета.
+**Версия пакета: 0.2.0.** Обновление с проектным образцом X2002 доступно в этом репозитории. Владелец разрешил публичную загрузку включённых материалов 14 октября 2026 года. Публикация в общем каталоге OpenAI ещё не выполнена. Установка в приложении пользователя проверяется отдельно от проверки файлов пакета.
 
-[Посмотреть учебный комплект — 9 страниц PDF](plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/assets/demo/output/demo.pdf) · [Инструкции самого навыка](plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/SKILL.md) · [Подготовка публикации в каталоге](docs/publishing.md)
+[Электрическая схема — 11 страниц PDF](plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/assets/x2002-reference/documents/X2002_ШС1_Э3_Р27_Комплект.pdf) · [Монтажная схема — 12 страниц PDF](plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/assets/x2002-reference/documents/X2002_ШС1_Монтажная_схема_Р31.pdf) · [Инструкции самого навыка](plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/SKILL.md) · [Подготовка публикации в каталоге](docs/publishing.md)
 
 ## Возможности и состав
 
 Навык задаёт правила рамок, основных надписей, маркировки цепей, изображения ПЛК, клемм, межшкафных связей и монтажной компоновки. Он помогает сохранять принятые листы при частичных правках и согласовывать Э3/Э4, соединения, перечни и закупочную спецификацию.
 
-В пакет входят инструкции, инструменты Python, шрифты DejaVu Sans с лицензией и самостоятельный вымышленный учебный комплект. Генератор создаёт PDF, DXF, SVG и данные геометрии из общего источника. Средства проверки обнаруживают определённые ошибки соединений, размеров, размещения и фактически экспортированных таблиц.
+В версии 0.2.0 основной образец — реальный комплект ПАККА / X2002 до замены покупного шкафа оператора на самодельный: 14 документов, суммарно 57 страниц PDF, проектные модели и пять архивов исходников. Силовые шкафы имеют размер 1200×800×400 мм, покупные шкафы оператора — 500×400×200 мм. Эти значения относятся только к образцу. Принятые чертежи и исторические редакции сохранены; перечень поставки синхронизирован с составом и спецификацией.
 
-Это навык черчения и проверки схем. Он не создаёт программы ПЛК. Учебные аппараты и размеры не заменяют документацию конкретного оборудования; `build_demo.py` воспроизводит вложенный пример, а не проектирует произвольный шкаф по одной команде. DXF является редактируемым обменным форматом, но не собственным файлом КОМПАС CDW. Проверка скриптами не подтверждает автоматически полное соответствие ГОСТ, электрическую безопасность или пригодность промышленного проекта.
+Известное исключение — шаг осей коробов у DIN3 270 мм; его нельзя переносить в новые проекты как общее правило. Подробные границы применения находятся в [описании образца](plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/references/sample-scope.md). Архивы сохраняют исторические зависимости; окончательные документы выбираются по [реестру комплекта](plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/assets/x2002-reference/set-manifest.json).
+
+`rebuild_reference.py` воспроизводит электрический комплект либо монтажный выпуск в отдельной папке. Для монтажного выпуска заново строится лист 1, а листы 2–12 сохраняются исходным генератором. `build_validation_fixture.py` создаёт технический набор для проверки инструментов; этот набор не используется как образец оформления. Прежний `build_demo.py` удалён.
+
+Включены инструменты Python и шрифты DejaVu Sans с лицензией. Общий генератор создаёт PDF, DXF, SVG и данные геометрии из общего источника. Это навык подготовки схем, программирование ПЛК в него не входит. DXF не является собственным файлом КОМПАС CDW. Проверки не подтверждают автоматически все электрические расчёты, безопасность или полное соответствие ГОСТ.
 
 ## Быстрая установка отдельного навыка в Codex
 
@@ -45,7 +49,7 @@ codex plugin marketplace add Solute666/eskd-electrical-cabinets --ref main
 После установки отдельного навыка в Codex:
 
 ```text
-$eskd-electrical-cabinets Воспроизведи вложенный учебный комплект в отдельной рабочей папке. Используй штатный build_demo.py, проверь выпуск через audit_release.py, покажи PDF и перечисли выполненные проверки. Не меняй установленный навык.
+$eskd-electrical-cabinets Воспроизведи электрический комплект проектного образца X2002 в отдельной пустой рабочей папке через rebuild_reference.py --part electrical. Проверь состав через verify_reference_set.py, сравни созданный PDF с эталоном и покажи результат. Не меняй установленный навык.
 ```
 
 Для проверки своего проекта приложите схемы, действующую спецификацию и доступную документацию оборудования:
@@ -56,33 +60,45 @@ $eskd-electrical-cabinets Проверь приложенный комплект
 
 В ChatGPT выбирайте установленный навык или плагин через `@`; название для выбора подскажет интерфейс.
 
-## Воспроизведение примера без диалога
+## Воспроизведение образца без диалога
 
-Проверенная среда исходного навыка: Python 3.12.14, ReportLab 4.4.9, PyMuPDF 1.26.6, ezdxf 1.4.4. Команды ниже выполняются из корня клонированного репозитория, где находятся этот README и папка `plugins`. В Windows используйте установленный интерпретатор `python` или замените его на `py -3.12`.
+Команды выполняются из корня клонированного репозитория. Проверенные версии: Python 3.12.14, ReportLab 4.4.9, PyMuPDF 1.26.6, ezdxf 1.4.4. Добавлен openpyxl 3.1.5 для чтения XLSX при проверке комплекта. В Windows используйте установленный `python` или `py -3.12`.
 
-Создайте виртуальное окружение и активируйте его:
+Создайте виртуальное окружение:
 
 ```bash
 python -m venv .venv
 ```
 
-В Linux/macOS: `source .venv/bin/activate`. В PowerShell: `.\.venv\Scripts\Activate.ps1`. Если политика PowerShell блокирует активацию, можно запускать `.\.venv\Scripts\python.exe` напрямую вместо `python`.
+В Linux/macOS активируйте его командой `source .venv/bin/activate`. В PowerShell: `.\.venv\Scripts\Activate.ps1`. Если активация недоступна, можно запускать `.\.venv\Scripts\python.exe` напрямую вместо `python`.
 
 ```bash
 python -m pip install -r plugins/eskd-electrical-cabinets/requirements.txt
 python -B plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/scripts/verify_references.py
-python -B plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/scripts/build_demo.py --out work/demo
-python -B plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/scripts/audit_release.py plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/assets/demo/project.json --bundle work/demo --report work/qa/release.json
-python -B plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/scripts/self_check.py --bundle work/demo
+python -B plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/scripts/verify_reference_set.py plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/assets/x2002-reference --report work/qa/reference-set.json
+python -B plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/scripts/rebuild_reference.py --part electrical --out work/electrical
+python -B plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/scripts/rebuild_reference.py --part mounting --out work/mounting
 ```
 
-Результат: `work/demo/demo.pdf`, отдельные листы PDF/DXF/SVG, данные геометрии и `release.json`. Рабочие файлы записываются вне установленного навыка. Генерация не требует запуска системы автоматизированного проектирования; для просмотра и редактирования DXF используйте подходящее приложение.
+Для каждого воспроизведения нужна отдельная пустая папка. При повторном запуске выбирайте новое имя, например `work/electrical-02`. Скрипт не перезаписывает прежнюю работу. Отчёт сравнения находится в `reproduction.json`, журнал — в `build.log`, а PDF и другие экспорты — в подпапке проекта `output`.
+
+## Техническая проверка инструментов
+
+```bash
+python -B plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/scripts/build_validation_fixture.py --out work/validator
+python -B plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/scripts/audit_release.py plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/scripts/test_fixtures/validator_project.json --bundle work/validator --report work/qa/validator-release.json
+python -B plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/scripts/self_check.py --bundle work/validator
+```
+
+Этот искусственный набор проверяет инструменты. Подробные листы X2002 остаются основным визуальным образцом.
 
 ## Проверки и ограничения
 
-Самопроверка содержит 32 случая, включая преднамеренные ошибки. Она проверяет способность средств контроля обнаруживать эти ошибки, а не все возможные инженерные ошибки. Проверка эталонных файлов сравнивает контрольные суммы 39 файлов. Проверка выпуска читает данные из экспортированных файлов и сопоставляет их с моделью.
+Самопроверка инструментов содержит 32 случая, включая преднамеренные ошибки. Проверка эталонных ресурсов сверяет 40 файлов. `verify_reference_set.py` проверяет 14 документов, 99 позиций, 300 соединений, 183 клеммы, состав и габариты корпусов, а также читает 400 ячеек из PDF перечня поставки.
 
-[Отчёт подготовки этой публикации](docs/validation.json) фиксирует реально выполненные проверки. [Отчёт разработки навыка](plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/assets/validation-report.json) сохранён отдельно как часть исходного пакета. Обязательны просмотр изменённых листов и проверка исходных данных оборудования. Печать на конкретном принтере отдельно не испытывалась.
+[Отчёт подготовки публикации](docs/validation.json) фиксирует реально выполненные проверки и статус публичного разрешения. [Отчёт разработки навыка](plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/assets/validation-report.json) сохранён отдельно. Хеш подтверждает идентичность файла, а не инженерную правильность. Исторические отчёты ограничены заявленным в них объёмом.
+
+Глубина компоновки, тепловые расчёты, отверстия, безопасность и достаточность кабельных вводов требуют отдельных проверок. Достоверность паспортных данных оборудования, просмотр изменённых листов и печать на конкретном принтере автоматически не подтверждаются.
 
 ## Сборка ZIP для каталога
 
@@ -90,11 +106,11 @@ python -B plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/scrip
 python tools/build_plugin.py
 ```
 
-Команда создаёт `dist/eskd-electrical-cabinets-0.1.0.zip`. В корне архива находятся `plugin.json`, `requirements.txt` и папка `skills`. История Git, временные файлы, кэш Python и рабочие проекты в архив не попадают. ZIP не хранится второй копией исходников в репозитории. Проверки содержимого и публичная заявка описаны в [docs/publishing.md](docs/publishing.md).
+Команда создаёт `dist/eskd-electrical-cabinets-0.2.0.zip`. В корне архива находятся `plugin.json`, `requirements.txt` и папка `skills`. История Git, временные файлы, кэш Python и рабочие проекты в архив не попадают. Пять зафиксированных архивов исходников X2002 включаются только после проверки их контрольных сумм, целостности и путей; неизвестные вложенные архивы блокируются. Эта техническая проверка не заменяет разрешение на публичное распространение. ZIP не хранится второй копией исходников в репозитории. Проверки содержимого и публичная заявка описаны в [docs/publishing.md](docs/publishing.md).
 
 ## Авторство и лицензии
 
-Владелец репозитория: [Solute666](https://github.com/Solute666). Лицензия на авторские инструкции, инструменты и учебный пример пока не выбрана владельцем; в версии 0.1.0 она не объявлена. Условия дальнейшего распространения следует согласовать с владельцем.
+Владелец репозитория: [Solute666](https://github.com/Solute666). Лицензия на авторские инструкции, инструменты и учебный пример пока не выбрана владельцем; в версии 0.2.0 она не объявлена. Условия дальнейшего распространения следует согласовать с владельцем.
 
 Шрифты распространяются по собственной [включённой лицензии DejaVu](plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets/assets/fonts/LICENSE.txt). Библиотеки Python устанавливаются отдельно и сохраняют свои лицензии.
 
@@ -108,4 +124,4 @@ python tools/build_plugin.py
 
 ## English overview
 
-This repository packages a Russian-language ESKD electrical and wiring drawing skill for automation cabinets. It includes instructions, Python drawing and audit tools, bundled licensed fonts, and a fictional nine-sheet PDF/DXF/SVG example. Install the standalone skill from `plugins/eskd-electrical-cabinets/skills/eskd-electrical-cabinets`, or use the repository plugin marketplace. Public OpenAI directory submission is pending. The skill does not program PLCs or certify electrical designs. No license has yet been selected for the authored materials; bundled fonts retain their included license.
+This repository packages a Russian-language ESKD electrical and wiring drawing skill for automation cabinets. Version 0.2.0 replaces the simplified visual demo with a real frozen X2002 reference: 14 documents, 57 PDF pages, project models and five source archives. The small validation fixture is retained only to test the audit tools. The repository owner authorized publishing these materials in this public GitHub repository on October 14, 2026. Public OpenAI directory submission is pending. The skill does not program PLCs or certify electrical designs. No license has yet been selected for the authored materials; bundled fonts retain their included license.

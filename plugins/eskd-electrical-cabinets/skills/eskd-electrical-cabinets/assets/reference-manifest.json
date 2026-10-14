@@ -1,263 +1,166 @@
 {
-  "snapshot_date": "2026-10-11",
-  "scope": "Independent educational model and reproducible exports. Hashes verify file identity, not engineering validity.",
+  "snapshot_date": "2026-10-13",
+  "reference": "X2002 before custom operator enclosure; E3 R27, mounting R31, elements R29, specification 2026-10-12",
+  "scope": "Frozen project reference identity only. Test fixture is not an appearance example.",
   "files": [
     {
-      "file": "assets/demo/output/demo.pdf",
-      "sha256": "8a124309e73df4669af0ca49872dd4265da780ce96b45a100ab9a0db00b42411",
-      "pages": 9,
-      "page_mm": [
-        [
-          594.0,
-          420.0
-        ],
-        [
-          594.0,
-          420.0
-        ],
-        [
-          594.0,
-          420.0
-        ],
-        [
-          594.0,
-          420.0
-        ],
-        [
-          594.0,
-          420.0
-        ],
-        [
-          420.0,
-          297.0
-        ],
-        [
-          594.0,
-          420.0
-        ],
-        [
-          594.0,
-          420.0
-        ],
-        [
-          594.0,
-          420.0
-        ]
-      ]
+      "file": "assets/x2002-reference/checks/assembly_geometry_rechecked.json",
+      "sha256": "3d61c99cab378b33db806927ca3ed85e81558351f8ab60cd6d20fbfe3dc54b57"
     },
     {
-      "file": "assets/demo/output/release.json",
-      "sha256": "36b339dcbe38506a23a90b6b2f63149c5f6ba747d76f444074b1e44c897e465b"
+      "file": "assets/x2002-reference/checks/consistency.json",
+      "sha256": "7507b0e9306f8124d37fcfc61332052013217865f80b074885bb060183e9f238"
     },
     {
-      "file": "assets/demo/output/sheet_01.dxf",
-      "sha256": "b165ce57dbc2bccf0dc3a470290e6fd65c17e1087b41f467ef2aee8a336d36a6"
+      "file": "assets/x2002-reference/checks/geometry_R31_rebuilt.json",
+      "sha256": "b34bf80b1d74fffc01f8071d171ff3ca8c7a96c51536c31132cf0235d984877e"
     },
     {
-      "file": "assets/demo/output/sheet_01.pdf",
-      "sha256": "c1fa8c162a8333fdb0aaf7417f96935129dd2b2222045408e8c23b30473f185e",
-      "pages": 1,
-      "page_mm": [
-        [
-          594.0,
-          420.0
-        ]
-      ]
+      "file": "assets/x2002-reference/checks/historical_continuity_R31.json",
+      "sha256": "5781c468180649a8e4085caadc1417a3e41e6e379d54a2913e46c2a00a80b2d0"
     },
     {
-      "file": "assets/demo/output/sheet_01.svg",
-      "sha256": "f0f6f72a0411b2f183c66e832d621072e3683fc7f04bd57646c73991abdf0770"
+      "file": "assets/x2002-reference/checks/historical_geometry_R31.json",
+      "sha256": "b34bf80b1d74fffc01f8071d171ff3ca8c7a96c51536c31132cf0235d984877e"
     },
     {
-      "file": "assets/demo/output/sheet_01_layout.json",
-      "sha256": "d35a889f89e8ea064e2817c9fecdb21dee0394d64cfa40f6f1dfa7d5fbc45804"
+      "file": "assets/x2002-reference/checks/historical_materials_R31.json",
+      "sha256": "9c4b9f63f2eea675aaf419bea1d77319fdc69a6b8fb7bf580845681a432c8b06"
     },
     {
-      "file": "assets/demo/output/sheet_02.dxf",
-      "sha256": "c9535f7b0af7c7f3b9ce45ab1730bbfe8fe83cd8774448a5f8d107d2a7f48928"
+      "file": "assets/x2002-reference/checks/historical_unchanged_pages.json",
+      "sha256": "80f18cccca4377d8c08f0f3c904d79cf7d6d6f38ae328cf68c48f42be2d039ad"
     },
     {
-      "file": "assets/demo/output/sheet_02.pdf",
-      "sha256": "5603bfbe327a5f59475e9e5532d3806fc375c94d3287f8c9f47851c1d7f2b0f5",
-      "pages": 1,
-      "page_mm": [
-        [
-          594.0,
-          420.0
-        ]
-      ]
+      "file": "assets/x2002-reference/checks/reproduction_electrical.json",
+      "sha256": "84e6e93114bd97b328c61763b6727f05f7552226282bf30741e2266698c44a2e"
     },
     {
-      "file": "assets/demo/output/sheet_02.svg",
-      "sha256": "cc44dc660c452d0e34c4d6652c7b7f902f7350b1738b9067a9a1778f3b3d9e56"
+      "file": "assets/x2002-reference/checks/reproduction_mounting.json",
+      "sha256": "548765a1f8bc68303a84882cda53d9ee7418c562ee3ab7252fe4c4924713fb5d"
     },
     {
-      "file": "assets/demo/output/sheet_02_layout.json",
-      "sha256": "733a91c64fe2943daeefeb02057caaf09a334d585c76180665ca2a6aa1fa9487"
+      "file": "assets/x2002-reference/checks/review.json",
+      "sha256": "e7cac68adf44e3d1f22503efe9030f4fea3598431c4cca6e52c052be2f1d09cb"
     },
     {
-      "file": "assets/demo/output/sheet_03.dxf",
-      "sha256": "555627210f11d40a9fda2dd0267f3de2f9403d20ef59927e990d9010c1cda6da"
+      "file": "assets/x2002-reference/checks/verify_reference_set.py",
+      "sha256": "0132449e5de512491496f45bf8af18f0b91ad83b48cf4ed88243472a8ebe306b"
     },
     {
-      "file": "assets/demo/output/sheet_03.pdf",
-      "sha256": "019787e6fe80c5d1db57796197159c1e808eb27c8200da068ca8c14a5445570b",
-      "pages": 1,
-      "page_mm": [
-        [
-          594.0,
-          420.0
-        ]
-      ]
+      "file": "assets/x2002-reference/documents/X2002_Логическая_схема_и_алгоритм_Р01.docx",
+      "sha256": "45432230d9f9cabef12265dbc61f3602ba5595e00f71049f4bac203c8d8b6adc"
     },
     {
-      "file": "assets/demo/output/sheet_03.svg",
-      "sha256": "8ad300b74fbe879851c2e6f49367e3124a9611019e2b25f0901feb4b47920ce8"
+      "file": "assets/x2002-reference/documents/X2002_Логическая_схема_и_алгоритм_Р01.pdf",
+      "sha256": "7ebec5f33164b7cce9679abcb22f1aea67df6bab75ab6125df69cbed6126e3d4"
     },
     {
-      "file": "assets/demo/output/sheet_03_layout.json",
-      "sha256": "bd7115248ea91216d1044e842632d2653a48eefbbb08fbb2f92d9566236b0609"
+      "file": "assets/x2002-reference/documents/X2002_Однолинейная_схема_Р27.pdf",
+      "sha256": "35065beadf7abd734411ae3eeaeb24e514289e914975b6677efc14eba4be31d2"
     },
     {
-      "file": "assets/demo/output/sheet_04.dxf",
-      "sha256": "3e862eb375733accd1bc6596fde14a36f54b136aab96c9adec15e3c7303700bf"
+      "file": "assets/x2002-reference/documents/X2002_Перечень_поставляемого_оборудования_Р31.pdf",
+      "sha256": "3d33c253aecd3aef13fc72064f4b94c74cf5aae4f57a1279d2795d52e1a049eb"
     },
     {
-      "file": "assets/demo/output/sheet_04.pdf",
-      "sha256": "c453801e80af1b471bb5abfbd151563787ce7f6a0f9fc4f167c36651070b906b",
-      "pages": 1,
-      "page_mm": [
-        [
-          594.0,
-          420.0
-        ]
-      ]
+      "file": "assets/x2002-reference/documents/X2002_Перечень_поставляемого_оборудования_Р31.xlsx",
+      "sha256": "8701b82524f13ae22f890c4d48e260e2a09be21b81d38b56d05d32eed36c8d76"
     },
     {
-      "file": "assets/demo/output/sheet_04.svg",
-      "sha256": "03c46a694f51c680f31413f00e47f9fd79f61db5982f884508a1e9a7c7153301"
+      "file": "assets/x2002-reference/documents/X2002_Перечень_сигналов_Р27.pdf",
+      "sha256": "31ab06d32fa66ccf27cd51dffae877c743b7ce55ea4688d0e56b202df3c64c18"
     },
     {
-      "file": "assets/demo/output/sheet_04_layout.json",
-      "sha256": "72efcc54d9e0795682a76141dcb69879189866525cd2b366aecc89969a401b80"
+      "file": "assets/x2002-reference/documents/X2002_Перечень_сигналов_Р27.xlsx",
+      "sha256": "0c604479bbc467300bf6a8f069935f57d1f077537f122444804a9bfac3fb360f"
     },
     {
-      "file": "assets/demo/output/sheet_05.dxf",
-      "sha256": "db675059c22592142feea09e3c5f49511262f26e0125b7e41b273293388a56ee"
+      "file": "assets/x2002-reference/documents/X2002_Спецификация.xlsx",
+      "sha256": "35ef099250555b5767c8d987ae3156ab42bfbee363b26b9822ae111745e71c08"
     },
     {
-      "file": "assets/demo/output/sheet_05.pdf",
-      "sha256": "63b1dcbd5356050db8d4cd5ca291bd6fb8f07d889fcce60a828aa9dd3d8a3f3c",
-      "pages": 1,
-      "page_mm": [
-        [
-          594.0,
-          420.0
-        ]
-      ]
+      "file": "assets/x2002-reference/documents/X2002_Схема_заземления_Р27.pdf",
+      "sha256": "1f3646c699b7c3bc49f53a3749d706b89a90f23637f215f1138f935affd55616"
     },
     {
-      "file": "assets/demo/output/sheet_05.svg",
-      "sha256": "9122f61fe9afd9cedbeb233fc0f0762eac8c0841a6451fcb9f9e326681eacd5c"
+      "file": "assets/x2002-reference/documents/X2002_ШС1_Монтаж_и_перечень_Р29.xlsx",
+      "sha256": "3ffbbad8428f39c3f47bafb55fed08a9a476c29c7819d266cc37666378cea7b9"
     },
     {
-      "file": "assets/demo/output/sheet_05_layout.json",
-      "sha256": "b70809578d7e863f9cf683a8705393bdf9ae668485cffb16abcf676bd2032054"
+      "file": "assets/x2002-reference/documents/X2002_ШС1_Монтажная_схема_Р31.pdf",
+      "sha256": "c9afd8b92b21352e15763b909cf2a0863a2831e8b74269e09f72dea611736e68"
     },
     {
-      "file": "assets/demo/output/sheet_06.dxf",
-      "sha256": "d451e8bf98f1af77612871117587b4a2ab1522fc5f32e7bb24de50a52a2bc581"
+      "file": "assets/x2002-reference/documents/X2002_ШС1_Перечень_элементов_Р29.pdf",
+      "sha256": "def77b23d759b4962109ee3c781a116f822f08eeed32b11878ea5848425794c8"
     },
     {
-      "file": "assets/demo/output/sheet_06.pdf",
-      "sha256": "2cf947dc2fca32824749d8845a24648d2bf13adceeb5767add713aa202003997",
-      "pages": 1,
-      "page_mm": [
-        [
-          420.0,
-          297.0
-        ]
-      ]
+      "file": "assets/x2002-reference/documents/X2002_ШС1_Таблица_соединений_Р27.pdf",
+      "sha256": "1949fc654c350ea489b5f0abe6b9a66aa15532553feaa0d4584e489ffe4e6a45"
     },
     {
-      "file": "assets/demo/output/sheet_06.svg",
-      "sha256": "bc830c863568e78c9fe826f8eed90f006d798446817663d1bfe9228d6c31a013"
+      "file": "assets/x2002-reference/documents/X2002_ШС1_Э3_Р27_Комплект.pdf",
+      "sha256": "80ec41787cb6df93a8ea2660c3d53a9d254e701af7d4bad871bde7200064f847"
     },
     {
-      "file": "assets/demo/output/sheet_06_layout.json",
-      "sha256": "f3f4551dddc6f45c49884ce2683d229a6036e23ecc08d23a9133debce852e307"
+      "file": "assets/x2002-reference/file-manifest.json",
+      "sha256": "188573b879c6f723c58afbe843a91f16c6786c35e19c631410cd4fdc91691e20"
     },
     {
-      "file": "assets/demo/output/sheet_07.dxf",
-      "sha256": "5a591066b1d66aa7fab6e3dfbafb5e2b7de06dcff03e05f5d8fa42811786bd33"
+      "file": "assets/x2002-reference/model/cabinet_R29.json",
+      "sha256": "64dfa3679a650363e96649e8cf3e1466b12982710487406d9836f3df2f9b2835"
     },
     {
-      "file": "assets/demo/output/sheet_07.pdf",
-      "sha256": "010037bdc09114836eeab1214d9b29db9c62f6aad04ee449fab22851f3ee32fc",
-      "pages": 1,
-      "page_mm": [
-        [
-          594.0,
-          420.0
-        ]
-      ]
+      "file": "assets/x2002-reference/model/electrical_connections_R27.json",
+      "sha256": "16da60ba06c7e1134033a5bb38c5a81cc82d501a060b1db0fa47ad2b01c68239"
     },
     {
-      "file": "assets/demo/output/sheet_07.svg",
-      "sha256": "372de0502dee93810c558de1f49309f18a51a70a5600c70e25557c3594a8d94d"
+      "file": "assets/x2002-reference/model/equipment_R31.json",
+      "sha256": "efd35fb8f89317e5c60e8cd6e5c9866c1b58ac79e3761e2350f4e591464a9455"
     },
     {
-      "file": "assets/demo/output/sheet_07_layout.json",
-      "sha256": "f1e528c3dd1efdeedd78dac4a519ef1e91a37c778675e2c55ecf55c8514eedd2"
+      "file": "assets/x2002-reference/model/equipment_pdf_cells.json",
+      "sha256": "7ec81123471eaeb07be5ce2ba14b066e3c7679b522f17e29cfe3b6b4b384b7b9"
     },
     {
-      "file": "assets/demo/output/sheet_08.dxf",
-      "sha256": "2e72b2d8e2cb90e24d8fb5f21cf4c2fcd42872b11bbeb32a7e51fce1d4d91bbc"
+      "file": "assets/x2002-reference/model/layout_positions_R31.json",
+      "sha256": "5466fce111b14e50dae3bf48f096a148379ace4cde1100481a12d4fa62648e4a"
     },
     {
-      "file": "assets/demo/output/sheet_08.pdf",
-      "sha256": "8bb50206fe1801a3981d69cb81594b9ac1a8b5b3e3e5a817f29f33fd3cf87b88",
-      "pages": 1,
-      "page_mm": [
-        [
-          594.0,
-          420.0
-        ]
-      ]
+      "file": "assets/x2002-reference/model/mount_model_R29.json",
+      "sha256": "4e9d781e487ecc5e9a5f26559257f82863074d11f429411a4de282c11d0b6e3a"
     },
     {
-      "file": "assets/demo/output/sheet_08.svg",
-      "sha256": "b04e393c3eaec65991cfb58de595b844372c2af0bf777254749ca3129d7e3309"
+      "file": "assets/x2002-reference/set-manifest.json",
+      "sha256": "c1aa727ccbdb4a1c3dccdfa534cd8716f1187103a22da9a9418750db895b6c4c"
     },
     {
-      "file": "assets/demo/output/sheet_08_layout.json",
-      "sha256": "9488292808a54ede80dcf728c889b99d70fde2e9e26534cbe01ec7c68da4b3ff"
+      "file": "assets/x2002-reference/sources/X2002_Дополнительные_схемы_Р27_Исходники.zip",
+      "sha256": "34373af36dc6d0275da8d690386e4f2d5d338320146eb95fdf0ef8f5c0a27ac5"
     },
     {
-      "file": "assets/demo/output/sheet_09.dxf",
-      "sha256": "7884927114586c87418b584ab8d82752d54343636de43d3cdad94cbf7d783515"
+      "file": "assets/x2002-reference/sources/X2002_Исходники_схем_Р01.zip",
+      "sha256": "82bbdaf5d66936a53c24c6ab5f542e2437ecee323ef36f86c0844fbdfb7320a8"
     },
     {
-      "file": "assets/demo/output/sheet_09.pdf",
-      "sha256": "94358f7123368d2cbee5abd67c7ddb3c72fc435fb4baadad9886172acd80aa76",
-      "pages": 1,
-      "page_mm": [
-        [
-          594.0,
-          420.0
-        ]
-      ]
+      "file": "assets/x2002-reference/sources/X2002_Монтаж_Р31_Исходники.zip",
+      "sha256": "8c4f487ab59742289a07360a81ff757323ca398f0d1ae6345275b69dd38cedc1"
     },
     {
-      "file": "assets/demo/output/sheet_09.svg",
-      "sha256": "eb159b0bcd9e4fea5ae45cc5c840e9b683c5310a45289c0571d0d5492811c2e9"
+      "file": "assets/x2002-reference/sources/X2002_Перечень_поставки_Р31_Исходники.zip",
+      "sha256": "613feac360cfb871a34bf97dad2edc7c588bdf07cea2772b2a770b2383aa7e23"
     },
     {
-      "file": "assets/demo/output/sheet_09_layout.json",
-      "sha256": "7edea4615094dfd6d8fdadb6a8b07260aeb6c5d2fcb3e2fd97b6d01a3e037b32"
+      "file": "assets/x2002-reference/sources/X2002_ШС1_Э3_Р27_Исходники.zip",
+      "sha256": "96fee1094cdcb2c4aa341f696e27cc4987f49aeecf86601d91ce1e48745093f7"
     },
     {
-      "file": "assets/demo/project.json",
+      "file": "assets/x2002-reference/Состав_и_статус.txt",
+      "sha256": "f86e373f2288b0fef3ea1d1817a6204b2ce3f0999fef3b50414ee6b153214c12"
+    },
+    {
+      "file": "scripts/test_fixtures/validator_project.json",
       "sha256": "f19ed645196f3e8ef354e6cd8717d11b89c4b7ae9d19f34a628817fdee8fefc3"
     }
   ]

@@ -1,26 +1,85 @@
 {
-  "date": "2026-10-11",
-  "package_version": "0.1.0",
-  "scope": "GitHub package preparation; client installation and public directory approval not performed.",
+  "date": "2026-10-14",
+  "package_version": "0.2.0",
+  "publication_authorization": {
+    "status": "confirmed",
+    "date": "2026-10-14",
+    "scope": "Owner authorized publishing the complete prepared version 0.2.0, including PAKKA / X2002 project documents and source archives, in the public Solute666/eskd-electrical-cabinets GitHub repository.",
+    "license_selected": false
+  },
+  "scope": "Package transfer, reference identity and consistency, reproduction and deterministic tool self-checks. No new full engineering certification.",
   "skill_copy": {
-    "files": 72,
-    "byte_identical_to_installed_skill": true
+    "files": 75,
+    "byte_identical_files": 74,
+    "byte_identical_to_installed_skill": false,
+    "documented_differences": {
+      "references/publication.md": "Added the owner's October 14, 2026 authorization for publishing version 0.2.0. All other skill files match the installed skill."
+    }
   },
   "references": {
-    "checked_files": 39,
+    "checked_files": 40,
     "errors": [],
     "engineering_validation": false
   },
-  "publication_scan": {
-    "passed": true,
-    "checked_files": 74,
-    "scope": "Known previous-project identifiers and absolute workspace paths in filenames, text and PDF metadata; fonts retain their supplied license.",
-    "limitations": [
-      "Checks supplied patterns; visual content and unlisted identities need separate review.",
-      "Run on a clean export, not the parent Git repository."
-    ]
+  "reference_set": {
+    "reference_id": "x2002-pre-custom-r31",
+    "passed_within_scope": true,
+    "checked": {
+      "supply_pdf_cells_read_back": 400,
+      "documents": 14,
+      "pdf_pages": 57,
+      "element_rows": 99,
+      "connections": 300,
+      "terminals": 183,
+      "electrical_connections_equal": true,
+      "cabinet_dimensions": {
+        "ШС": {
+          "model": "R5ST1284",
+          "height_width_depth_mm": [
+            1200,
+            800,
+            400
+          ],
+          "panel_height_width_mm": [
+            1150,
+            750
+          ],
+          "purchase": 2
+        },
+        "ШО": {
+          "model": "R5ST0542",
+          "height_width_depth_mm": [
+            500,
+            400,
+            200
+          ],
+          "purchase": 2
+        }
+      },
+      "R31_geometry": true
+    },
+    "errors": [],
+    "known_limitations": [
+      {
+        "id": "DIN3-pitch",
+        "status": "Отклонение от прежнего запроса сохранено",
+        "requested_mm": [
+          180,
+          200
+        ],
+        "actual_mm": 270,
+        "source": "checks/historical_geometry_R31.json",
+        "use": "Не переносить как норматив; выбирать по конкретным устройствам и зазорам."
+      },
+      {
+        "id": "engineering-scope",
+        "status": "Не является новой полной инженерной приёмкой",
+        "use": "Исторические отчёты ограничены указанным в них объёмом. Глубина, тепловой расчёт, сверление и кабельные вводы не подтверждаются согласованием габаритов корпусов."
+      }
+    ],
+    "scope": "Frozen-file integrity; 99 element and purchase rows; workbook connections/terminals; electrical graph equality; cabinet dimensions; R31 panel identification; supply PDF cell readback. Not a new electrical/thermal/safety approval."
   },
-  "reproduced_release": {
+  "validator_release": {
     "passed_within_scope": true,
     "coverage": {
       "model": {
@@ -52,73 +111,6 @@
       "Checks explicit adapter evidence and exported cells, not electrical calculations or manufacturer compliance.",
       "Manual visual review of every changed sheet remains required."
     ]
-  },
-  "reproduction": {
-    "scope": "Unchanged page appearance, text and size only",
-    "allowed_pages": [],
-    "checked_pages": [
-      {
-        "page": 1,
-        "same_size": true,
-        "same_text": true,
-        "same_image": true
-      },
-      {
-        "page": 2,
-        "same_size": true,
-        "same_text": true,
-        "same_image": true
-      },
-      {
-        "page": 3,
-        "same_size": true,
-        "same_text": true,
-        "same_image": true
-      },
-      {
-        "page": 4,
-        "same_size": true,
-        "same_text": true,
-        "same_image": true
-      },
-      {
-        "page": 5,
-        "same_size": true,
-        "same_text": true,
-        "same_image": true
-      },
-      {
-        "page": 6,
-        "same_size": true,
-        "same_text": true,
-        "same_image": true
-      },
-      {
-        "page": 7,
-        "same_size": true,
-        "same_text": true,
-        "same_image": true
-      },
-      {
-        "page": 8,
-        "same_size": true,
-        "same_text": true,
-        "same_image": true
-      },
-      {
-        "page": 9,
-        "same_size": true,
-        "same_text": true,
-        "same_image": true
-      }
-    ],
-    "errors": [],
-    "page_counts": [
-      9,
-      9
-    ],
-    "passed": true,
-    "changed_pages_validated": false
   },
   "self_check": {
     "checks": [
@@ -253,15 +245,188 @@
     ],
     "passed": true
   },
+  "reproduction": {
+    "electrical": {
+      "scope": "Rebuilt electrical pages compared by text, page size and rendering.",
+      "allowed_pages": [],
+      "checked_pages": [
+        {
+          "page": 1,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        },
+        {
+          "page": 2,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        },
+        {
+          "page": 3,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        },
+        {
+          "page": 4,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        },
+        {
+          "page": 5,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        },
+        {
+          "page": 6,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        },
+        {
+          "page": 7,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        },
+        {
+          "page": 8,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        },
+        {
+          "page": 9,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        },
+        {
+          "page": 10,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        },
+        {
+          "page": 11,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        }
+      ],
+      "errors": [],
+      "page_counts": [
+        11,
+        11
+      ],
+      "passed": true,
+      "changed_pages_validated": false
+    },
+    "mounting": {
+      "scope": "Page 1 rebuilt; pages 2–12 retained by the original source. All 12 pages compared.",
+      "allowed_pages": [],
+      "checked_pages": [
+        {
+          "page": 1,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        },
+        {
+          "page": 2,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        },
+        {
+          "page": 3,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        },
+        {
+          "page": 4,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        },
+        {
+          "page": 5,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        },
+        {
+          "page": 6,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        },
+        {
+          "page": 7,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        },
+        {
+          "page": 8,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        },
+        {
+          "page": 9,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        },
+        {
+          "page": 10,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        },
+        {
+          "page": 11,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        },
+        {
+          "page": 12,
+          "same_size": true,
+          "same_text": true,
+          "same_image": true
+        }
+      ],
+      "errors": [],
+      "page_counts": [
+        12,
+        12
+      ],
+      "passed": true,
+      "changed_pages_validated": false
+    }
+  },
   "zip": {
-    "files": 74,
-    "bytes": 2091283,
-    "sha256": "883fafec50c94a6f3d9fd0c1404fbd63541f433b1124a5f507274b3d2ae7e382"
+    "files": 77,
+    "bytes": 12754968,
+    "sha256": "bd4d7a18f2868cc3d19a2bb4af226905e72765fcb1c23ade9e3e5ce2be8856e6"
+  },
+  "source_archives": {
+    "count": 5,
+    "entries": 183,
+    "crc_and_path_checks_passed": true,
+    "frozen_archive_hashes_match": true,
+    "limitations": "Technical checks do not grant public-distribution rights."
   },
   "package_structure": {
     "passed": true,
-    "relative_links_resolve": true,
     "zip_matches_source": true,
+    "relative_markdown_links_resolve": true,
     "official_portal_validation": "not_run"
   }
 }

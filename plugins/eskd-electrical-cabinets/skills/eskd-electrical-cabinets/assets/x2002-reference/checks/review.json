@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-13",
+  "visual_review": [
+    "Э3 листы 2, 3, 10",
+    "Монтаж листы 1, 2",
+    "Перечень элементов лист 1",
+    "Перечень поставки все 8 листов, XLSX изменённые верхние строки"
+  ],
+  "unchanged_files": "12 of 14 document files are verbatim copies of the selected prior baseline. Supply PDF/XLSX reconstructed from the same approved data.",
+  "reference_source_reproduction": "All 11 electrical and all 12 mounting PDF pages match by text, page size and rendering. Mounting source draws page 1 and carries remaining pages.",
+  "spreadsheet_verification": "All 99 supply rows match model and procurement; no formula errors in artifact-tool scan.",
+  "scope": "Not a new full engineering approval; see set-manifest limitations."
+}

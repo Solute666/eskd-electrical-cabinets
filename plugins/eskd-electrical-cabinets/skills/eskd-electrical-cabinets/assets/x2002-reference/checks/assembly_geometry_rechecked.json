@@ -1,0 +1,16 @@
+{
+  "passed_within_scope": true,
+  "coverage": {
+    "cabinets": 1,
+    "devices": 58,
+    "bom": 72,
+    "placements": 58,
+    "mechanical": 13
+  },
+  "errors": [],
+  "scope": "Declared dimensions, panel geometry and bill of materials",
+  "limitations": [
+    "No verification of manufacturer data, thermal, strength, wiring capacity, depth or safety calculations.",
+    "Clearances are checked only against the explicitly supplied values."
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "reference_id": "x2002-pre-custom-r31",
+  "passed_within_scope": true,
+  "checked": {
+    "supply_pdf_cells_read_back": 400,
+    "documents": 14,
+    "pdf_pages": 57,
+    "element_rows": 99,
+    "connections": 300,
+    "terminals": 183,
+    "electrical_connections_equal": true,
+    "cabinet_dimensions": {
+      "ШС": {
+        "model": "R5ST1284",
+        "height_width_depth_mm": [
+          1200,
+          800,
+          400
+        ],
+        "panel_height_width_mm": [
+          1150,
+          750
+        ],
+        "purchase": 2
+      },
+      "ШО": {
+        "model": "R5ST0542",
+        "height_width_depth_mm": [
+          500,
+          400,
+          200
+        ],
+        "purchase": 2
+      }
+    },
+    "R31_geometry": true
+  },
+  "errors": [],
+  "known_limitations": [
+    {
+      "id": "DIN3-pitch",
+      "status": "Отклонение от прежнего запроса сохранено",
+      "requested_mm": [
+        180,
+        200
+      ],
+      "actual_mm": 270,
+      "source": "checks/historical_geometry_R31.json",
+      "use": "Не переносить как норматив; выбирать по конкретным устройствам и зазорам."
+    },
+    {
+      "id": "engineering-scope",
+      "status": "Не является новой полной инженерной приёмкой",
+      "use": "Исторические отчёты ограничены указанным в них объёмом. Глубина, тепловой расчёт, сверление и кабельные вводы не подтверждаются согласованием габаритов корпусов."
+    }
+  ],
+  "scope": "Frozen-file integrity; 99 element and purchase rows; workbook connections/terminals; electrical graph equality; cabinet dimensions; R31 panel identification; supply PDF cell readback. Not a new electrical/thermal/safety approval."
+}

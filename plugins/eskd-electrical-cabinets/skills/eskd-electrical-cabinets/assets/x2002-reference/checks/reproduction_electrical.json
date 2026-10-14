@@ -1,0 +1,79 @@
+{
+  "scope": "Rebuilt electrical pages compared by text, page size and rendering.",
+  "allowed_pages": [],
+  "checked_pages": [
+    {
+      "page": 1,
+      "same_size": true,
+      "same_text": true,
+      "same_image": true
+    },
+    {
+      "page": 2,
+      "same_size": true,
+      "same_text": true,
+      "same_image": true
+    },
+    {
+      "page": 3,
+      "same_size": true,
+      "same_text": true,
+      "same_image": true
+    },
+    {
+      "page": 4,
+      "same_size": true,
+      "same_text": true,
+      "same_image": true
+    },
+    {
+      "page": 5,
+      "same_size": true,
+      "same_text": true,
+      "same_image": true
+    },
+    {
+      "page": 6,
+      "same_size": true,
+      "same_text": true,
+      "same_image": true
+    },
+    {
+      "page": 7,
+      "same_size": true,
+      "same_text": true,
+      "same_image": true
+    },
+    {
+      "page": 8,
+      "same_size": true,
+      "same_text": true,
+      "same_image": true
+    },
+    {
+      "page": 9,
+      "same_size": true,
+      "same_text": true,
+      "same_image": true
+    },
+    {
+      "page": 10,
+      "same_size": true,
+      "same_text": true,
+      "same_image": true
+    },
+    {
+      "page": 11,
+      "same_size": true,
+      "same_text": true,
+      "same_image": true
+    }
+  ],
+  "errors": [],
+  "page_counts": [
+    11,
+    11
+  ],
+  "passed": true,
+  "changed_pages_validated": false
+}

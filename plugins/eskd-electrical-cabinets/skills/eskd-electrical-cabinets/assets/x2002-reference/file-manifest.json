@@ -1,0 +1,195 @@
+{
+  "scope": "Frozen file identity; not engineering validation",
+  "files": [
+    {
+      "path": "checks/assembly_geometry_rechecked.json",
+      "sha256": "3d61c99cab378b33db806927ca3ed85e81558351f8ab60cd6d20fbfe3dc54b57",
+      "bytes": 447
+    },
+    {
+      "path": "checks/consistency.json",
+      "sha256": "7507b0e9306f8124d37fcfc61332052013217865f80b074885bb060183e9f238",
+      "bytes": 1933
+    },
+    {
+      "path": "checks/geometry_R31_rebuilt.json",
+      "sha256": "b34bf80b1d74fffc01f8071d171ff3ca8c7a96c51536c31132cf0235d984877e",
+      "bytes": 1594
+    },
+    {
+      "path": "checks/historical_continuity_R31.json",
+      "sha256": "5781c468180649a8e4085caadc1417a3e41e6e379d54a2913e46c2a00a80b2d0",
+      "bytes": 2109
+    },
+    {
+      "path": "checks/historical_geometry_R31.json",
+      "sha256": "b34bf80b1d74fffc01f8071d171ff3ca8c7a96c51536c31132cf0235d984877e",
+      "bytes": 1594
+    },
+    {
+      "path": "checks/historical_materials_R31.json",
+      "sha256": "9c4b9f63f2eea675aaf419bea1d77319fdc69a6b8fb7bf580845681a432c8b06",
+      "bytes": 972
+    },
+    {
+      "path": "checks/historical_unchanged_pages.json",
+      "sha256": "80f18cccca4377d8c08f0f3c904d79cf7d6d6f38ae328cf68c48f42be2d039ad",
+      "bytes": 1386
+    },
+    {
+      "path": "checks/reproduction_electrical.json",
+      "sha256": "84e6e93114bd97b328c61763b6727f05f7552226282bf30741e2266698c44a2e",
+      "bytes": 1398
+    },
+    {
+      "path": "checks/reproduction_mounting.json",
+      "sha256": "548765a1f8bc68303a84882cda53d9ee7418c562ee3ab7252fe4c4924713fb5d",
+      "bytes": 1521
+    },
+    {
+      "path": "checks/review.json",
+      "sha256": "e7cac68adf44e3d1f22503efe9030f4fea3598431c4cca6e52c052be2f1d09cb",
+      "bytes": 836
+    },
+    {
+      "path": "checks/verify_reference_set.py",
+      "sha256": "0132449e5de512491496f45bf8af18f0b91ad83b48cf4ed88243472a8ebe306b",
+      "bytes": 9220
+    },
+    {
+      "path": "documents/X2002_Логическая_схема_и_алгоритм_Р01.docx",
+      "sha256": "45432230d9f9cabef12265dbc61f3602ba5595e00f71049f4bac203c8d8b6adc",
+      "bytes": 232743
+    },
+    {
+      "path": "documents/X2002_Логическая_схема_и_алгоритм_Р01.pdf",
+      "sha256": "7ebec5f33164b7cce9679abcb22f1aea67df6bab75ab6125df69cbed6126e3d4",
+      "bytes": 78085
+    },
+    {
+      "path": "documents/X2002_Однолинейная_схема_Р27.pdf",
+      "sha256": "35065beadf7abd734411ae3eeaeb24e514289e914975b6677efc14eba4be31d2",
+      "bytes": 82368
+    },
+    {
+      "path": "documents/X2002_Перечень_поставляемого_оборудования_Р31.pdf",
+      "sha256": "3d33c253aecd3aef13fc72064f4b94c74cf5aae4f57a1279d2795d52e1a049eb",
+      "bytes": 260238
+    },
+    {
+      "path": "documents/X2002_Перечень_поставляемого_оборудования_Р31.xlsx",
+      "sha256": "8701b82524f13ae22f890c4d48e260e2a09be21b81d38b56d05d32eed36c8d76",
+      "bytes": 15236
+    },
+    {
+      "path": "documents/X2002_Перечень_сигналов_Р27.pdf",
+      "sha256": "31ab06d32fa66ccf27cd51dffae877c743b7ce55ea4688d0e56b202df3c64c18",
+      "bytes": 252122
+    },
+    {
+      "path": "documents/X2002_Перечень_сигналов_Р27.xlsx",
+      "sha256": "0c604479bbc467300bf6a8f069935f57d1f077537f122444804a9bfac3fb360f",
+      "bytes": 12980
+    },
+    {
+      "path": "documents/X2002_Спецификация.xlsx",
+      "sha256": "35ef099250555b5767c8d987ae3156ab42bfbee363b26b9822ae111745e71c08",
+      "bytes": 13254
+    },
+    {
+      "path": "documents/X2002_Схема_заземления_Р27.pdf",
+      "sha256": "1f3646c699b7c3bc49f53a3749d706b89a90f23637f215f1138f935affd55616",
+      "bytes": 84951
+    },
+    {
+      "path": "documents/X2002_ШС1_Монтаж_и_перечень_Р29.xlsx",
+      "sha256": "3ffbbad8428f39c3f47bafb55fed08a9a476c29c7819d266cc37666378cea7b9",
+      "bytes": 46169
+    },
+    {
+      "path": "documents/X2002_ШС1_Монтажная_схема_Р31.pdf",
+      "sha256": "c9afd8b92b21352e15763b909cf2a0863a2831e8b74269e09f72dea611736e68",
+      "bytes": 598152
+    },
+    {
+      "path": "documents/X2002_ШС1_Перечень_элементов_Р29.pdf",
+      "sha256": "def77b23d759b4962109ee3c781a116f822f08eeed32b11878ea5848425794c8",
+      "bytes": 193578
+    },
+    {
+      "path": "documents/X2002_ШС1_Таблица_соединений_Р27.pdf",
+      "sha256": "1949fc654c350ea489b5f0abe6b9a66aa15532553feaa0d4584e489ffe4e6a45",
+      "bytes": 456263
+    },
+    {
+      "path": "documents/X2002_ШС1_Э3_Р27_Комплект.pdf",
+      "sha256": "80ec41787cb6df93a8ea2660c3d53a9d254e701af7d4bad871bde7200064f847",
+      "bytes": 726010
+    },
+    {
+      "path": "model/cabinet_R29.json",
+      "sha256": "64dfa3679a650363e96649e8cf3e1466b12982710487406d9836f3df2f9b2835",
+      "bytes": 946
+    },
+    {
+      "path": "model/electrical_connections_R27.json",
+      "sha256": "16da60ba06c7e1134033a5bb38c5a81cc82d501a060b1db0fa47ad2b01c68239",
+      "bytes": 68203
+    },
+    {
+      "path": "model/equipment_R31.json",
+      "sha256": "efd35fb8f89317e5c60e8cd6e5c9866c1b58ac79e3761e2350f4e591464a9455",
+      "bytes": 36067
+    },
+    {
+      "path": "model/equipment_pdf_cells.json",
+      "sha256": "7ec81123471eaeb07be5ce2ba14b066e3c7679b522f17e29cfe3b6b4b384b7b9",
+      "bytes": 81992
+    },
+    {
+      "path": "model/layout_positions_R31.json",
+      "sha256": "5466fce111b14e50dae3bf48f096a148379ace4cde1100481a12d4fa62648e4a",
+      "bytes": 14289
+    },
+    {
+      "path": "model/mount_model_R29.json",
+      "sha256": "4e9d781e487ecc5e9a5f26559257f82863074d11f429411a4de282c11d0b6e3a",
+      "bytes": 207949
+    },
+    {
+      "path": "set-manifest.json",
+      "sha256": "c1aa727ccbdb4a1c3dccdfa534cd8716f1187103a22da9a9418750db895b6c4c",
+      "bytes": 6744
+    },
+    {
+      "path": "sources/X2002_Дополнительные_схемы_Р27_Исходники.zip",
+      "sha256": "34373af36dc6d0275da8d690386e4f2d5d338320146eb95fdf0ef8f5c0a27ac5",
+      "bytes": 986857
+    },
+    {
+      "path": "sources/X2002_Исходники_схем_Р01.zip",
+      "sha256": "82bbdaf5d66936a53c24c6ab5f542e2437ecee323ef36f86c0844fbdfb7320a8",
+      "bytes": 8268
+    },
+    {
+      "path": "sources/X2002_Монтаж_Р31_Исходники.zip",
+      "sha256": "8c4f487ab59742289a07360a81ff757323ca398f0d1ae6345275b69dd38cedc1",
+      "bytes": 3565853
+    },
+    {
+      "path": "sources/X2002_Перечень_поставки_Р31_Исходники.zip",
+      "sha256": "613feac360cfb871a34bf97dad2edc7c588bdf07cea2772b2a770b2383aa7e23",
+      "bytes": 1638569
+    },
+    {
+      "path": "sources/X2002_ШС1_Э3_Р27_Исходники.zip",
+      "sha256": "96fee1094cdcb2c4aa341f696e27cc4987f49aeecf86601d91ce1e48745093f7",
+      "bytes": 2977272
+    },
+    {
+      "path": "Состав_и_статус.txt",
+      "sha256": "f86e373f2288b0fef3ea1d1817a6204b2ce3f0999fef3b50414ee6b153214c12",
+      "bytes": 4845
+    }
+  ]
+}

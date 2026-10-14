@@ -1,0 +1,181 @@
+{
+  "id": "x2002-pre-custom-r31",
+  "assembled_on": "2026-10-13",
+  "baseline": "Перед заменой покупного шкафа оператора на изготовление заказчика. Отдельный замороженный образец.",
+  "documents": {
+    "electrical": {
+      "path": "documents/X2002_ШС1_Э3_Р27_Комплект.pdf",
+      "revision": "Р27",
+      "sha256": "80ec41787cb6df93a8ea2660c3d53a9d254e701af7d4bad871bde7200064f847",
+      "bytes": 726010,
+      "preserved_verbatim": true,
+      "pages": 11
+    },
+    "mounting": {
+      "path": "documents/X2002_ШС1_Монтажная_схема_Р31.pdf",
+      "revision": "Р31; лист 2 Р28, листы 3–12 Р27",
+      "sha256": "c9afd8b92b21352e15763b909cf2a0863a2831e8b74269e09f72dea611736e68",
+      "bytes": 598152,
+      "preserved_verbatim": true,
+      "pages": 12
+    },
+    "elements_pdf": {
+      "path": "documents/X2002_ШС1_Перечень_элементов_Р29.pdf",
+      "revision": "Р29",
+      "sha256": "def77b23d759b4962109ee3c781a116f822f08eeed32b11878ea5848425794c8",
+      "bytes": 193578,
+      "preserved_verbatim": true,
+      "pages": 4
+    },
+    "mounting_workbook": {
+      "path": "documents/X2002_ШС1_Монтаж_и_перечень_Р29.xlsx",
+      "revision": "Р29; данные соединений Р27",
+      "sha256": "3ffbbad8428f39c3f47bafb55fed08a9a476c29c7819d266cc37666378cea7b9",
+      "bytes": 46169,
+      "preserved_verbatim": true
+    },
+    "specification": {
+      "path": "documents/X2002_Спецификация.xlsx",
+      "revision": "12.10.2026",
+      "sha256": "35ef099250555b5767c8d987ae3156ab42bfbee363b26b9822ae111745e71c08",
+      "bytes": 13254,
+      "preserved_verbatim": true
+    },
+    "connections": {
+      "path": "documents/X2002_ШС1_Таблица_соединений_Р27.pdf",
+      "revision": "Р27",
+      "sha256": "1949fc654c350ea489b5f0abe6b9a66aa15532553feaa0d4584e489ffe4e6a45",
+      "bytes": 456263,
+      "preserved_verbatim": true,
+      "pages": 12
+    },
+    "single_line": {
+      "path": "documents/X2002_Однолинейная_схема_Р27.pdf",
+      "revision": "Р27",
+      "sha256": "35065beadf7abd734411ae3eeaeb24e514289e914975b6677efc14eba4be31d2",
+      "bytes": 82368,
+      "preserved_verbatim": true,
+      "pages": 1
+    },
+    "earthing": {
+      "path": "documents/X2002_Схема_заземления_Р27.pdf",
+      "revision": "Р27",
+      "sha256": "1f3646c699b7c3bc49f53a3749d706b89a90f23637f215f1138f935affd55616",
+      "bytes": 84951,
+      "preserved_verbatim": true,
+      "pages": 1
+    },
+    "signals_pdf": {
+      "path": "documents/X2002_Перечень_сигналов_Р27.pdf",
+      "revision": "Р27",
+      "sha256": "31ab06d32fa66ccf27cd51dffae877c743b7ce55ea4688d0e56b202df3c64c18",
+      "bytes": 252122,
+      "preserved_verbatim": true,
+      "pages": 7
+    },
+    "signals_workbook": {
+      "path": "documents/X2002_Перечень_сигналов_Р27.xlsx",
+      "revision": "Р27",
+      "sha256": "0c604479bbc467300bf6a8f069935f57d1f077537f122444804a9bfac3fb360f",
+      "bytes": 12980,
+      "preserved_verbatim": true
+    },
+    "equipment_pdf": {
+      "path": "documents/X2002_Перечень_поставляемого_оборудования_Р31.pdf",
+      "revision": "Синхронизирован 13.10.2026 для эталона Р31",
+      "sha256": "3d33c253aecd3aef13fc72064f4b94c74cf5aae4f57a1279d2795d52e1a049eb",
+      "bytes": 260238,
+      "preserved_verbatim": false,
+      "pages": 8
+    },
+    "equipment_workbook": {
+      "path": "documents/X2002_Перечень_поставляемого_оборудования_Р31.xlsx",
+      "revision": "Синхронизирован 13.10.2026 для эталона Р31",
+      "sha256": "8701b82524f13ae22f890c4d48e260e2a09be21b81d38b56d05d32eed36c8d76",
+      "bytes": 15236,
+      "preserved_verbatim": false
+    },
+    "logic_pdf": {
+      "path": "documents/X2002_Логическая_схема_и_алгоритм_Р01.pdf",
+      "revision": "Р01",
+      "sha256": "7ebec5f33164b7cce9679abcb22f1aea67df6bab75ab6125df69cbed6126e3d4",
+      "bytes": 78085,
+      "preserved_verbatim": true,
+      "pages": 1
+    },
+    "logic_docx": {
+      "path": "documents/X2002_Логическая_схема_и_алгоритм_Р01.docx",
+      "revision": "Р01",
+      "sha256": "45432230d9f9cabef12265dbc61f3602ba5595e00f71049f4bac203c8d8b6adc",
+      "bytes": 232743,
+      "preserved_verbatim": true
+    }
+  },
+  "authoritative_models": [
+    "model/mount_model_R29.json",
+    "model/layout_positions_R31.json",
+    "model/cabinet_R29.json"
+  ],
+  "cabinets": {
+    "ШС": {
+      "model": "R5ST1284",
+      "height_width_depth_mm": [
+        1200,
+        800,
+        400
+      ],
+      "panel_height_width_mm": [
+        1150,
+        750
+      ],
+      "purchase": 2
+    },
+    "ШО": {
+      "model": "R5ST0542",
+      "height_width_depth_mm": [
+        500,
+        400,
+        200
+      ],
+      "purchase": 2
+    }
+  },
+  "equipment_reconstructed": {
+    "date": "2026-10-13",
+    "basis": "Перечень Р29 и спецификация 12.10.2026",
+    "changed_positions": [
+      1,
+      54,
+      57,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93
+    ]
+  },
+  "limitations": [
+    {
+      "id": "DIN3-pitch",
+      "status": "Отклонение от прежнего запроса сохранено",
+      "requested_mm": [
+        180,
+        200
+      ],
+      "actual_mm": 270,
+      "source": "checks/historical_geometry_R31.json",
+      "use": "Не переносить как норматив; выбирать по конкретным устройствам и зазорам."
+    },
+    {
+      "id": "engineering-scope",
+      "status": "Не является новой полной инженерной приёмкой",
+      "use": "Исторические отчёты ограничены указанным в них объёмом. Глубина, тепловой расчёт, сверление и кабельные вводы не подтверждаются согласованием габаритов корпусов."
+    }
+  ],
+  "source_policy": "Архивы sources сохраняют исторические данные и зависимости генераторов. Выпуском этого набора являются только файлы documents из данного реестра. Не запускать старые build_mount/build_customer для восстановления актуального состава без адаптации."
+}

@@ -32,7 +32,7 @@ def main():
     checks.append({'case':'wire_through_label','passed':not layout_audit(geometry)['clear_of_detected_conflicts']})
     geometry['texts'][0]['bbox']=[250,250,255,254]
     checks.append({'case':'text_in_stamp','passed':bool(layout_audit(geometry)['errors'])})
-    demo_path=root/'assets/demo/project.json';demo=json.loads(demo_path.read_text(encoding='utf-8'))
+    demo_path=root/'scripts/test_fixtures/validator_project.json';demo=json.loads(demo_path.read_text(encoding='utf-8'))
     checks.append({'case':'complete_demo_model','passed':audit(demo)['passed_within_scope']})
     checks.append({'case':'complete_demo_assembly','passed':assembly_audit(demo)['passed_within_scope']})
     def bad_assembly(name,change):

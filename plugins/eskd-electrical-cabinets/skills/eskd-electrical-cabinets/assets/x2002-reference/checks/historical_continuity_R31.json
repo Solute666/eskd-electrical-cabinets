@@ -1,0 +1,45 @@
+{
+  "scope": "Частичная правка листа 1; геометрия и сохранность других данных.",
+  "checks": {
+    "placement_identifiers_unchanged": true,
+    "all_four_vertical": true,
+    "both_EQS_below_terminals": true,
+    "DIN2_extended": true,
+    "remaining_height_below_terminals": 200,
+    "electrical_model_unchanged_revision": true,
+    "connections_retained": 300,
+    "terminals_retained": 183,
+    "pages": 12,
+    "page1_size_mm": [
+      841.0,
+      594.0
+    ],
+    "no_stale_coordinates_in_page1": true,
+    "expected_labels": true,
+    "used_fonts_embedded_page1": true,
+    "UZ1_lower_gap_50": true,
+    "UZ1_left_gap_30": true,
+    "vertical_duct_joins_K2_K3_K4": true,
+    "rail_ends_5_from_new_duct": true,
+    "duct_cut_plan_matches": true,
+    "duct_40x60_two_cabinets_m": 9.2,
+    "duct_purchase_sufficient_for_panel_cut_pieces": true,
+    "rail_cut_plan_matches": true
+  },
+  "unmet_user_requirement": {
+    "requested_DIN3_duct_pitch_mm": 200,
+    "actual_DIN3_duct_pitch_mm": 270,
+    "status": "Не выполнено; вариант с сохранением паспортных зазоров",
+    "reason": "KSR1 G9SE-401: высота 124 мм + 50 мм сверху + 50 мм снизу + 40 мм ширина короба = 264 мм между осями; принят шаг 270 мм."
+  },
+  "limitations": [
+    "Детали сверления и глубина не пересчитывались.",
+    "Общая закупка не проверяется адаптером геометрии: он считает монтажные объекты и нарезные детали.",
+    "Длины отрезков проводов определяются трассировкой."
+  ],
+  "source_hashes": {
+    "baseline/mount_R30.pdf": "3cb2a202317ccd3b75ab18856170df50a421a0381df28741d22c73488afb6214",
+    "data/mount_model_R29.json": "4e9d781e487ecc5e9a5f26559257f82863074d11f429411a4de282c11d0b6e3a",
+    "data/layout_positions_R30.json": "bcd8634abed739c659d73bef2ff6680bd225f5eefa27703597111c77d8d6f8c7"
+  }
+}
